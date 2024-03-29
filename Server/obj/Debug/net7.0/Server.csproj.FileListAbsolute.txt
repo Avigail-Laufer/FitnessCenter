@@ -1,0 +1,320 @@
+H:\fitness_center\Server\bin\Debug\net7.0\appsettings.Development.json
+H:\fitness_center\Server\bin\Debug\net7.0\appsettings.json
+H:\fitness_center\Server\bin\Debug\net7.0\Server.exe
+H:\fitness_center\Server\bin\Debug\net7.0\Server.deps.json
+H:\fitness_center\Server\bin\Debug\net7.0\Server.runtimeconfig.json
+H:\fitness_center\Server\bin\Debug\net7.0\Server.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Server.pdb
+H:\fitness_center\Server\bin\Debug\net7.0\Azure.Core.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Azure.Identity.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Humanizer.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Microsoft.OpenApi.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Mono.TextTemplating.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+H:\fitness_center\Server\bin\Debug\net7.0\System.CodeDom.dll
+H:\fitness_center\Server\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+H:\fitness_center\Server\bin\Debug\net7.0\System.Drawing.Common.dll
+H:\fitness_center\Server\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+H:\fitness_center\Server\bin\Debug\net7.0\System.Memory.Data.dll
+H:\fitness_center\Server\bin\Debug\net7.0\System.Runtime.Caching.dll
+H:\fitness_center\Server\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+H:\fitness_center\Server\bin\Debug\net7.0\System.Security.Permissions.dll
+H:\fitness_center\Server\bin\Debug\net7.0\System.Windows.Extensions.dll
+H:\fitness_center\Server\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+H:\fitness_center\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+H:\fitness_center\Server\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+H:\fitness_center\Server\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\fitness_center\Server\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\fitness_center\Server\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+H:\fitness_center\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+H:\fitness_center\Server\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+H:\fitness_center\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+H:\fitness_center\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+H:\fitness_center\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+H:\fitness_center\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+H:\fitness_center\Server\obj\Debug\net7.0\Server.csproj.AssemblyReference.cache
+H:\fitness_center\Server\obj\Debug\net7.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+H:\fitness_center\Server\obj\Debug\net7.0\Server.AssemblyInfoInputs.cache
+H:\fitness_center\Server\obj\Debug\net7.0\Server.AssemblyInfo.cs
+H:\fitness_center\Server\obj\Debug\net7.0\Server.csproj.CoreCompileInputs.cache
+H:\fitness_center\Server\obj\Debug\net7.0\Server.MvcApplicationPartsAssemblyInfo.cs
+H:\fitness_center\Server\obj\Debug\net7.0\Server.MvcApplicationPartsAssemblyInfo.cache
+H:\fitness_center\Server\obj\Debug\net7.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
+H:\fitness_center\Server\obj\Debug\net7.0\staticwebassets\msbuild.build.Server.props
+H:\fitness_center\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
+H:\fitness_center\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Server.props
+H:\fitness_center\Server\obj\Debug\net7.0\staticwebassets.pack.json
+H:\fitness_center\Server\obj\Debug\net7.0\staticwebassets.build.json
+H:\fitness_center\Server\obj\Debug\net7.0\staticwebassets.development.json
+H:\fitness_center\Server\obj\Debug\net7.0\scopedcss\bundle\Server.styles.css
+H:\fitness_center\Server\obj\Debug\net7.0\Server.csproj.CopyComplete
+H:\fitness_center\Server\obj\Debug\net7.0\Server.dll
+H:\fitness_center\Server\obj\Debug\net7.0\refint\Server.dll
+H:\fitness_center\Server\obj\Debug\net7.0\Server.pdb
+H:\fitness_center\Server\obj\Debug\net7.0\Server.genruntimeconfig.cache
+H:\fitness_center\Server\obj\Debug\net7.0\ref\Server.dll
+H:\fitness_center\Server\bin\Debug\net7.0\BL.dll
+H:\fitness_center\Server\bin\Debug\net7.0\Dal.dll
+H:\fitness_center\Server\bin\Debug\net7.0\BL.pdb
+H:\fitness_center\Server\bin\Debug\net7.0\Dal.pdb
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\appsettings.json
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Server.exe
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Server.deps.json
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Server.runtimeconfig.json
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Server.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Server.pdb
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Humanizer.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\BL.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Dal.dll
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\BL.pdb
+C:\Users\The user\Desktop\fitness_center\Server\bin\Debug\net7.0\Dal.pdb
+C:\Users\The user\Desktop\fitness_center\Server\obj\Debug\net7.0\Server.csproj.AssemblyReference.cache
+C:\Users\The user\Desktop\fitness_center\Server\obj\Debug\net7.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\The user\Desktop\fitness_center\Server\obj\Debug\net7.0\Server.AssemblyInfoInputs.cache
+C:\Users\The user\Desktop\fitness_center\Server\obj\Debug\net7.0\Server.AssemblyInfo.cs
+C:\Users\The user\Desktop\fitness_center\Server\obj\Debug\net7.0\Server.csproj.CoreCompileInputs.cache
+C:\Users\The user\Desktop\fitness_center\Server\obj\Debug\net7.0\Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\The user\Desktop\fitness_center\Server\obj\Debug\net7.0\Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\The user\Desktop\fitness_center\Server\obj\Debug\net7.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\The user\Desktop\fitness_center\Server\obj\Debug\net7.0\staticwebassets\msbuild.build.Server.props
+C:\Users\The user\Desktop\fitness_center\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
+C:\Users\The user\Desktop\fitness_center\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Server.props
+C:\Users\The user\Desktop\fitness_center\Server\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\The user\Desktop\fitness_center\Server\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\The user\Desktop\fitness_center\Server\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\The user\Desktop\fitness_center\Server\obj\Debug\net7.0\scopedcss\bundle\Server.styles.css
+C:\Users\The user\Desktop\fitness_center\Server\obj\Debug\net7.0\Server.csproj.CopyComplete
+C:\Users\The user\Desktop\fitness_center\Server\obj\Debug\net7.0\Server.dll
+C:\Users\The user\Desktop\fitness_center\Server\obj\Debug\net7.0\refint\Server.dll
+C:\Users\The user\Desktop\fitness_center\Server\obj\Debug\net7.0\Server.pdb
+C:\Users\The user\Desktop\fitness_center\Server\obj\Debug\net7.0\Server.genruntimeconfig.cache
+C:\Users\The user\Desktop\fitness_center\Server\obj\Debug\net7.0\ref\Server.dll
+D:\fitness_center\Server\bin\Debug\net7.0\appsettings.Development.json
+D:\fitness_center\Server\bin\Debug\net7.0\appsettings.json
+D:\fitness_center\Server\bin\Debug\net7.0\Server.exe
+D:\fitness_center\Server\bin\Debug\net7.0\Server.deps.json
+D:\fitness_center\Server\bin\Debug\net7.0\Server.runtimeconfig.json
+D:\fitness_center\Server\bin\Debug\net7.0\Server.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Server.pdb
+D:\fitness_center\Server\bin\Debug\net7.0\Azure.Core.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Azure.Identity.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Humanizer.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\fitness_center\Server\bin\Debug\net7.0\System.CodeDom.dll
+D:\fitness_center\Server\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\fitness_center\Server\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\fitness_center\Server\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\fitness_center\Server\bin\Debug\net7.0\System.Memory.Data.dll
+D:\fitness_center\Server\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\fitness_center\Server\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\fitness_center\Server\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\fitness_center\Server\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\fitness_center\Server\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\fitness_center\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\fitness_center\Server\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\fitness_center\Server\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\fitness_center\Server\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\fitness_center\Server\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\fitness_center\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\fitness_center\Server\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\fitness_center\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\fitness_center\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\fitness_center\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\fitness_center\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\fitness_center\Server\bin\Debug\net7.0\BL.dll
+D:\fitness_center\Server\bin\Debug\net7.0\Dal.dll
+D:\fitness_center\Server\bin\Debug\net7.0\BL.pdb
+D:\fitness_center\Server\bin\Debug\net7.0\Dal.pdb
+D:\fitness_center\Server\obj\Debug\net7.0\Server.csproj.AssemblyReference.cache
+D:\fitness_center\Server\obj\Debug\net7.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\fitness_center\Server\obj\Debug\net7.0\Server.AssemblyInfoInputs.cache
+D:\fitness_center\Server\obj\Debug\net7.0\Server.AssemblyInfo.cs
+D:\fitness_center\Server\obj\Debug\net7.0\Server.csproj.CoreCompileInputs.cache
+D:\fitness_center\Server\obj\Debug\net7.0\Server.MvcApplicationPartsAssemblyInfo.cs
+D:\fitness_center\Server\obj\Debug\net7.0\Server.MvcApplicationPartsAssemblyInfo.cache
+D:\fitness_center\Server\obj\Debug\net7.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
+D:\fitness_center\Server\obj\Debug\net7.0\staticwebassets\msbuild.build.Server.props
+D:\fitness_center\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
+D:\fitness_center\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Server.props
+D:\fitness_center\Server\obj\Debug\net7.0\staticwebassets.pack.json
+D:\fitness_center\Server\obj\Debug\net7.0\staticwebassets.build.json
+D:\fitness_center\Server\obj\Debug\net7.0\staticwebassets.development.json
+D:\fitness_center\Server\obj\Debug\net7.0\scopedcss\bundle\Server.styles.css
+D:\fitness_center\Server\obj\Debug\net7.0\Server.csproj.CopyComplete
+D:\fitness_center\Server\obj\Debug\net7.0\Server.dll
+D:\fitness_center\Server\obj\Debug\net7.0\refint\Server.dll
+D:\fitness_center\Server\obj\Debug\net7.0\Server.pdb
+D:\fitness_center\Server\obj\Debug\net7.0\Server.genruntimeconfig.cache
+D:\fitness_center\Server\obj\Debug\net7.0\ref\Server.dll
+E:\fitness_center\Server\bin\Debug\net7.0\appsettings.Development.json
+E:\fitness_center\Server\bin\Debug\net7.0\appsettings.json
+E:\fitness_center\Server\bin\Debug\net7.0\Server.exe
+E:\fitness_center\Server\bin\Debug\net7.0\Server.deps.json
+E:\fitness_center\Server\bin\Debug\net7.0\Server.runtimeconfig.json
+E:\fitness_center\Server\bin\Debug\net7.0\Server.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Server.pdb
+E:\fitness_center\Server\bin\Debug\net7.0\Azure.Core.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Azure.Identity.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Humanizer.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Microsoft.OpenApi.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Mono.TextTemplating.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\fitness_center\Server\bin\Debug\net7.0\System.CodeDom.dll
+E:\fitness_center\Server\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+E:\fitness_center\Server\bin\Debug\net7.0\System.Drawing.Common.dll
+E:\fitness_center\Server\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+E:\fitness_center\Server\bin\Debug\net7.0\System.Memory.Data.dll
+E:\fitness_center\Server\bin\Debug\net7.0\System.Runtime.Caching.dll
+E:\fitness_center\Server\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+E:\fitness_center\Server\bin\Debug\net7.0\System.Security.Permissions.dll
+E:\fitness_center\Server\bin\Debug\net7.0\System.Windows.Extensions.dll
+E:\fitness_center\Server\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\fitness_center\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\fitness_center\Server\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\fitness_center\Server\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\fitness_center\Server\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\fitness_center\Server\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\fitness_center\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\fitness_center\Server\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\fitness_center\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\fitness_center\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\fitness_center\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\fitness_center\Server\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\fitness_center\Server\bin\Debug\net7.0\BL.dll
+E:\fitness_center\Server\bin\Debug\net7.0\Dal.dll
+E:\fitness_center\Server\bin\Debug\net7.0\BL.pdb
+E:\fitness_center\Server\bin\Debug\net7.0\Dal.pdb
+E:\fitness_center\Server\obj\Debug\net7.0\Server.csproj.AssemblyReference.cache
+E:\fitness_center\Server\obj\Debug\net7.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+E:\fitness_center\Server\obj\Debug\net7.0\Server.AssemblyInfoInputs.cache
+E:\fitness_center\Server\obj\Debug\net7.0\Server.AssemblyInfo.cs
+E:\fitness_center\Server\obj\Debug\net7.0\Server.csproj.CoreCompileInputs.cache
+E:\fitness_center\Server\obj\Debug\net7.0\Server.MvcApplicationPartsAssemblyInfo.cs
+E:\fitness_center\Server\obj\Debug\net7.0\Server.MvcApplicationPartsAssemblyInfo.cache
+E:\fitness_center\Server\obj\Debug\net7.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
+E:\fitness_center\Server\obj\Debug\net7.0\staticwebassets\msbuild.build.Server.props
+E:\fitness_center\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
+E:\fitness_center\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Server.props
+E:\fitness_center\Server\obj\Debug\net7.0\staticwebassets.pack.json
+E:\fitness_center\Server\obj\Debug\net7.0\staticwebassets.build.json
+E:\fitness_center\Server\obj\Debug\net7.0\staticwebassets.development.json
+E:\fitness_center\Server\obj\Debug\net7.0\scopedcss\bundle\Server.styles.css
+E:\fitness_center\Server\obj\Debug\net7.0\Server.csproj.CopyComplete
+E:\fitness_center\Server\obj\Debug\net7.0\Server.dll
+E:\fitness_center\Server\obj\Debug\net7.0\refint\Server.dll
+E:\fitness_center\Server\obj\Debug\net7.0\Server.pdb
+E:\fitness_center\Server\obj\Debug\net7.0\Server.genruntimeconfig.cache
+E:\fitness_center\Server\obj\Debug\net7.0\ref\Server.dll

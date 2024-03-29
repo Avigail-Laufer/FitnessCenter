@@ -1,0 +1,56 @@
+H:\fitness_center\fitness_center\bin\Debug\net7.0\Dal.deps.json
+H:\fitness_center\fitness_center\bin\Debug\net7.0\Dal.runtimeconfig.json
+H:\fitness_center\fitness_center\bin\Debug\net7.0\Dal.dll
+H:\fitness_center\fitness_center\bin\Debug\net7.0\Dal.pdb
+H:\fitness_center\fitness_center\obj\Debug\net7.0\Dal.csproj.AssemblyReference.cache
+H:\fitness_center\fitness_center\obj\Debug\net7.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+H:\fitness_center\fitness_center\obj\Debug\net7.0\Dal.AssemblyInfoInputs.cache
+H:\fitness_center\fitness_center\obj\Debug\net7.0\Dal.AssemblyInfo.cs
+H:\fitness_center\fitness_center\obj\Debug\net7.0\Dal.csproj.CoreCompileInputs.cache
+H:\fitness_center\fitness_center\obj\Debug\net7.0\Dal.dll
+H:\fitness_center\fitness_center\obj\Debug\net7.0\refint\Dal.dll
+H:\fitness_center\fitness_center\obj\Debug\net7.0\Dal.pdb
+H:\fitness_center\fitness_center\obj\Debug\net7.0\Dal.genruntimeconfig.cache
+H:\fitness_center\fitness_center\obj\Debug\net7.0\ref\Dal.dll
+C:\Users\The user\Desktop\fitness_center\fitness_center\bin\Debug\net7.0\Dal.deps.json
+C:\Users\The user\Desktop\fitness_center\fitness_center\bin\Debug\net7.0\Dal.runtimeconfig.json
+C:\Users\The user\Desktop\fitness_center\fitness_center\bin\Debug\net7.0\Dal.dll
+C:\Users\The user\Desktop\fitness_center\fitness_center\bin\Debug\net7.0\Dal.pdb
+C:\Users\The user\Desktop\fitness_center\fitness_center\obj\Debug\net7.0\Dal.csproj.AssemblyReference.cache
+C:\Users\The user\Desktop\fitness_center\fitness_center\obj\Debug\net7.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\The user\Desktop\fitness_center\fitness_center\obj\Debug\net7.0\Dal.AssemblyInfoInputs.cache
+C:\Users\The user\Desktop\fitness_center\fitness_center\obj\Debug\net7.0\Dal.AssemblyInfo.cs
+C:\Users\The user\Desktop\fitness_center\fitness_center\obj\Debug\net7.0\Dal.csproj.CoreCompileInputs.cache
+C:\Users\The user\Desktop\fitness_center\fitness_center\obj\Debug\net7.0\Dal.dll
+C:\Users\The user\Desktop\fitness_center\fitness_center\obj\Debug\net7.0\refint\Dal.dll
+C:\Users\The user\Desktop\fitness_center\fitness_center\obj\Debug\net7.0\Dal.pdb
+C:\Users\The user\Desktop\fitness_center\fitness_center\obj\Debug\net7.0\Dal.genruntimeconfig.cache
+C:\Users\The user\Desktop\fitness_center\fitness_center\obj\Debug\net7.0\ref\Dal.dll
+D:\fitness_center\fitness_center\bin\Debug\net7.0\Dal.deps.json
+D:\fitness_center\fitness_center\bin\Debug\net7.0\Dal.runtimeconfig.json
+D:\fitness_center\fitness_center\bin\Debug\net7.0\Dal.dll
+D:\fitness_center\fitness_center\bin\Debug\net7.0\Dal.pdb
+D:\fitness_center\fitness_center\obj\Debug\net7.0\Dal.csproj.AssemblyReference.cache
+D:\fitness_center\fitness_center\obj\Debug\net7.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+D:\fitness_center\fitness_center\obj\Debug\net7.0\Dal.AssemblyInfoInputs.cache
+D:\fitness_center\fitness_center\obj\Debug\net7.0\Dal.AssemblyInfo.cs
+D:\fitness_center\fitness_center\obj\Debug\net7.0\Dal.csproj.CoreCompileInputs.cache
+D:\fitness_center\fitness_center\obj\Debug\net7.0\Dal.dll
+D:\fitness_center\fitness_center\obj\Debug\net7.0\refint\Dal.dll
+D:\fitness_center\fitness_center\obj\Debug\net7.0\Dal.pdb
+D:\fitness_center\fitness_center\obj\Debug\net7.0\Dal.genruntimeconfig.cache
+D:\fitness_center\fitness_center\obj\Debug\net7.0\ref\Dal.dll
+E:\fitness_center\fitness_center\bin\Debug\net7.0\Dal.deps.json
+E:\fitness_center\fitness_center\bin\Debug\net7.0\Dal.runtimeconfig.json
+E:\fitness_center\fitness_center\bin\Debug\net7.0\Dal.dll
+E:\fitness_center\fitness_center\bin\Debug\net7.0\Dal.pdb
+E:\fitness_center\fitness_center\obj\Debug\net7.0\Dal.csproj.AssemblyReference.cache
+E:\fitness_center\fitness_center\obj\Debug\net7.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+E:\fitness_center\fitness_center\obj\Debug\net7.0\Dal.AssemblyInfoInputs.cache
+E:\fitness_center\fitness_center\obj\Debug\net7.0\Dal.AssemblyInfo.cs
+E:\fitness_center\fitness_center\obj\Debug\net7.0\Dal.csproj.CoreCompileInputs.cache
+E:\fitness_center\fitness_center\obj\Debug\net7.0\Dal.dll
+E:\fitness_center\fitness_center\obj\Debug\net7.0\refint\Dal.dll
+E:\fitness_center\fitness_center\obj\Debug\net7.0\Dal.pdb
+E:\fitness_center\fitness_center\obj\Debug\net7.0\Dal.genruntimeconfig.cache
+E:\fitness_center\fitness_center\obj\Debug\net7.0\ref\Dal.dll
