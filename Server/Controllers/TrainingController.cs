@@ -17,7 +17,7 @@ public class TrainingController : ControllerBase
 
         this.blTraining = bl.trining;
     }
-    [HttpGet]
+    [HttpGet("{id}")]
     public List<BLTrining>? getgetTriningsforday(string id, string day)
     {
      var list=   blTraining.getTriningsforday(id, day);

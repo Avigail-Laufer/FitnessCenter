@@ -55,10 +55,6 @@ public class DalClientService : IClientDal
 
     public List<TimeTraining> GetAllTimeTrining(string nameOfTrining)
     {
-        for (int i = nameOfTrining.Length; i <= 39; i++)
-        {
-            nameOfTrining += " ";
-        }
         var idTrining = _fitnessCenter.Trainings
             .ToList()
             .FirstOrDefault(t => t.Name == nameOfTrining);

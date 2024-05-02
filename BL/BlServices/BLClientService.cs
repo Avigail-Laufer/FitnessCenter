@@ -10,16 +10,21 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using AutoMapper;
+using Dal;
 
 namespace BL.BlServices;
 
 public class BLClientService : IClientBL
 {
     IClientDal ClientBL;
+    IMapper mapper;
 
     public BLClientService(DalManager dal)
     {
         ClientBL = dal.Clients;
+        var config = new MapperConfiguration(cfg => cfg.AddProfile<MappingProfile>());
+        mapper = config.CreateMapper();
     }
 
     public BLsimpleClient AddClientBL(BLsimpleClient client)
@@ -48,28 +53,7 @@ public class BLClientService : IClientBL
         var list = ClientBL.GetClients(); // מקבלת רשימת דל
         // בונה רשימת בי אל ריקה
         List<BLReturnClient> ClientList = new List<BLReturnClient>();
-        // עוברת על רשימת הדל 
-        foreach (var c in list)
-        {// עבור כל אחד יוצרת בי אל חדש
-            var newClient = new BLReturnClient()
-            {
-                Id = c.Id.ToString(),
-                FirstName = c.FirstName.ToString(),
-                LastName = c.LastName.ToString(),
-                Fhone = c.Fhone.ToString(),
-                // typeMember = TypeMember(c.TypeMemberCode.ToString()),
-                Years = DateTime.Now.Year - c.BirthDate.Year,
-                Type = c.TypeMemberCodeNavigation.Type,
-                MonthlyPayment = c.TypeMemberCodeNavigation.MonthlyPayment
-
-            };
-            if (c.Email != null)
-            {
-                newClient.email = c.Email;
-            }
-            // מוסיפה לרשימה
-            ClientList.Add(newClient);
-        }
+        list.ForEach(t => ClientList.Add(mapper.Map<BLReturnClient>(t)));
         return ClientList;
 
     }
@@ -121,15 +105,7 @@ public class BLClientService : IClientBL
         List<BLschedule> timeTraining = new List<BLschedule>();
         List<TimeTraining> timeFromDal = new List<TimeTraining>();
         timeFromDal = ClientBL.GetAllTimeTrining(nameOfTrining);
-        foreach (var t in timeFromDal)
-        {
-            var time = new BLschedule(t);
-            
-
-
-            timeTraining.Add(time);
-
-        }
+        timeFromDal.ForEach(t => timeTraining.Add(mapper.Map<BLschedule>(t)));
         return timeTraining;
 
     }

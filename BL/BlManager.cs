@@ -1,7 +1,9 @@
-﻿using BL.BLApi;
+﻿using AutoMapper;
+using BL.BLApi;
 using BL.BlServices;
 using BL.BO;
 using BL.Models;
+using Dal;
 using fitness_center;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -29,6 +31,7 @@ public class BlManager
         services.AddScoped<IAppointmentBL, BLAppintmentServices>();
         services.AddScoped<ISchduleBL, BLSchduleSevices>();
         services.AddScoped<ITrainingBL,BLTriningService>();
+        services.AddAutoMapper(typeof(MappingProfile));
         ServiceProvider Provider = services.BuildServiceProvider();
         client = Provider.GetService<IClientBL>();
         coach = Provider.GetService<ICoachBL>();

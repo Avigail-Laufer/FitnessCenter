@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "AutoMapper/13.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Azure.Core/1.25.0": {
         "type": "package",
         "dependencies": {
@@ -57,6 +73,32 @@
           "lib/net6.0/Humanizer.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Magic.AutoMapper/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "13.0.1"
+        },
+        "compile": {
+          "lib/net6.0/Magic.AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Magic.AutoMapper.dll": {}
+        }
+      },
+      "Magic.AutoMapper.Extensions.Microsoft.DependencyInjection/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "Magic.AutoMapper": "2.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Magic.AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Magic.AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
       "Microsoft.AspNetCore.OpenApi/7.0.7": {
@@ -1165,6 +1207,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Dal": "1.0.0",
+          "Magic.AutoMapper.Extensions.Microsoft.DependencyInjection": "2.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.14",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.14"
         },
@@ -1179,6 +1222,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Magic.AutoMapper.Extensions.Microsoft.DependencyInjection": "2.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.14",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.14"
         },
@@ -1192,6 +1236,21 @@
     }
   },
   "libraries": {
+    "AutoMapper/13.0.1": {
+      "sha512": "/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "type": "package",
+      "path": "automapper/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.13.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/net6.0/AutoMapper.dll",
+        "lib/net6.0/AutoMapper.xml"
+      ]
+    },
     "Azure.Core/1.25.0": {
       "sha512": "X8Dd4sAggS84KScWIjEbFAdt2U1KDolQopTPoHVubG2y3CM54f9l6asVrP5Uy384NWXjsspPYaJgz5xHc+KvTA==",
       "type": "package",
@@ -1246,6 +1305,30 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Magic.AutoMapper/2.0.0": {
+      "sha512": "tQ7im0JgS6WqTGtK1vvZrF7X+6cnqlSqaCdFuFpB1RSjDULsqH2NBhQu99pmJYdEydl5ZENsOucKcPRf6M9/Mw==",
+      "type": "package",
+      "path": "magic.automapper/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Magic.AutoMapper.dll",
+        "magic.automapper.2.0.0.nupkg.sha512",
+        "magic.automapper.nuspec"
+      ]
+    },
+    "Magic.AutoMapper.Extensions.Microsoft.DependencyInjection/2.0.0": {
+      "sha512": "TM0VS9BEVMZ8wwQhePHfY2rgYRsBYgJxFmKm/Oy0sSC3UZLKNjKQWv5qOL9tPftIcmyNQh4efZmfeYykqbpwTw==",
+      "type": "package",
+      "path": "magic.automapper.extensions.microsoft.dependencyinjection/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Magic.AutoMapper.Extensions.Microsoft.DependencyInjection.dll",
+        "magic.automapper.extensions.microsoft.dependencyinjection.2.0.0.nupkg.sha512",
+        "magic.automapper.extensions.microsoft.dependencyinjection.nuspec"
       ]
     },
     "Microsoft.AspNetCore.OpenApi/7.0.7": {
@@ -3374,7 +3457,9 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "AutoMapper >= 13.0.1",
       "BL >= 1.0.0",
+      "Magic.AutoMapper.Extensions.Microsoft.DependencyInjection >= 2.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.7",
       "Microsoft.EntityFrameworkCore >= 7.0.14",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.14",
@@ -3383,23 +3468,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\לאופר אביגיל צירל\\.nuget\\packages\\": {},
+    "C:\\Users\\The user\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\fitness_center\\Server\\Server.csproj",
+      "projectUniqueName": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\Server\\Server.csproj",
       "projectName": "Server",
-      "projectPath": "H:\\fitness_center\\Server\\Server.csproj",
-      "packagesPath": "C:\\Users\\לאופר אביגיל צירל\\.nuget\\packages\\",
-      "outputPath": "H:\\fitness_center\\Server\\obj\\",
+      "projectPath": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\Server\\Server.csproj",
+      "packagesPath": "C:\\Users\\The user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\לאופר אביגיל צירל\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\The user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3408,15 +3493,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "H:\\fitness_center\\BL\\BL.csproj": {
-              "projectPath": "H:\\fitness_center\\BL\\BL.csproj"
+            "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\BL\\BL.csproj"
             }
           }
         }
@@ -3431,6 +3516,14 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
+          "Magic.AutoMapper.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[7.0.7, )"
@@ -3473,7 +3566,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.118\\RuntimeIdentifierGraph.json"
       }
     }
   }

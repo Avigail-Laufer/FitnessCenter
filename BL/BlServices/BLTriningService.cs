@@ -1,5 +1,7 @@
-﻿using BL.BLApi;
+﻿using AutoMapper;
+using BL.BLApi;
 using BL.Models;
+using Dal;
 using Dal.DalApi;
 using Dal.DalServices;
 using fitness_center;
@@ -17,23 +19,23 @@ internal class BLTriningService : ITrainingBL
     ITraining dalTraining;
     IClientDal dalClint;
     ISighnToDal sighnTo;
+    ISchedule schdule;
+    IMapper mapper;
     public BLTriningService(DalManager dal)
     {
         dalTraining = dal.Trainings;
         dalClint = dal.Clients;
         sighnTo = dal.sighnTo;
+        schdule = dal.Schedule;
+        var config = new MapperConfiguration(cfg => cfg.AddProfile<MappingProfile>());
+        mapper = config.CreateMapper();
     }
 
     public List<BLTrining> getAllTrainings()
     {
         var listFromDall=dalTraining.GetAllTrainings();
         List<BLTrining> list = new List<BLTrining>();
-        foreach(var v in listFromDall) 
-        {
-            BLTrining bLTrining=new BLTrining() { Name= v.Name };
-            list.Add(bLTrining);       
-        
-        }
+        listFromDall.ForEach(t => list.Add(mapper.Map<BLTrining>(t)));
         return list;
     }
 
@@ -64,8 +66,24 @@ internal class BLTriningService : ITrainingBL
       
     }
 
+    List<Training> ITrainingBL.GetTrainingsByDay(string day)
+    {
+        throw new NotImplementedException();
+    }
 
-   
+    //public List<Training> GetTrainingsByDay(string day)
+    //{
+    //    List<TimeTraining> trainings = schdule.GetSchedule();
+    //    var schedule = trainings
+    //    .Where(item => item.Day == day)
+    //    .Select(item => new BLschedule(item))
+    //    .ToList();
+    //    return schedule;
 
-    
+    //}
+
+
+
+
+
 }

@@ -9,12 +9,24 @@
       "BL/1.0.0": {
         "dependencies": {
           "Dal": "1.0.0",
+          "Magic.AutoMapper.Extensions.Microsoft.DependencyInjection": "2.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.14",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.14",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.14"
         },
         "runtime": {
           "BL.dll": {}
+        }
+      },
+      "AutoMapper/13.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Options": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.0"
+          }
         }
       },
       "Azure.Core/1.25.0": {
@@ -56,6 +68,30 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "Magic.AutoMapper/2.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/Magic.AutoMapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Magic.AutoMapper.Extensions.Microsoft.DependencyInjection/2.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "Magic.AutoMapper": "2.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Magic.AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
           }
         }
       },
@@ -613,6 +649,7 @@
       },
       "Dal/1.0.0": {
         "dependencies": {
+          "Magic.AutoMapper.Extensions.Microsoft.DependencyInjection": "2.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.14",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.14"
         },
@@ -627,6 +664,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AutoMapper/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "path": "automapper/13.0.1",
+      "hashPath": "automapper.13.0.1.nupkg.sha512"
     },
     "Azure.Core/1.25.0": {
       "type": "package",
@@ -648,6 +692,20 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "Magic.AutoMapper/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tQ7im0JgS6WqTGtK1vvZrF7X+6cnqlSqaCdFuFpB1RSjDULsqH2NBhQu99pmJYdEydl5ZENsOucKcPRf6M9/Mw==",
+      "path": "magic.automapper/2.0.0",
+      "hashPath": "magic.automapper.2.0.0.nupkg.sha512"
+    },
+    "Magic.AutoMapper.Extensions.Microsoft.DependencyInjection/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TM0VS9BEVMZ8wwQhePHfY2rgYRsBYgJxFmKm/Oy0sSC3UZLKNjKQWv5qOL9tPftIcmyNQh4efZmfeYykqbpwTw==",
+      "path": "magic.automapper.extensions.microsoft.dependencyinjection/2.0.0",
+      "hashPath": "magic.automapper.extensions.microsoft.dependencyinjection.2.0.0.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",

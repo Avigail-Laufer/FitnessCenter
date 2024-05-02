@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "H:\\fitness_center\\Server\\Server.csproj": {}
+    "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\Server\\Server.csproj": {}
   },
   "projects": {
-    "H:\\fitness_center\\BL\\BL.csproj": {
+    "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\BL\\BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\fitness_center\\BL\\BL.csproj",
+        "projectUniqueName": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\BL\\BL.csproj",
         "projectName": "BL",
-        "projectPath": "H:\\fitness_center\\BL\\BL.csproj",
-        "packagesPath": "C:\\Users\\לאופר אביגיל צירל\\.nuget\\packages\\",
-        "outputPath": "H:\\fitness_center\\BL\\obj\\",
+        "projectPath": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\BL\\BL.csproj",
+        "packagesPath": "C:\\Users\\The user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\לאופר אביגיל צירל\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\The user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "H:\\fitness_center\\fitness_center\\Dal.csproj": {
-                "projectPath": "H:\\fitness_center\\fitness_center\\Dal.csproj"
+              "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\fitness_center\\Dal.csproj": {
+                "projectPath": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\fitness_center\\Dal.csproj"
               }
             }
           }
@@ -48,6 +49,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Magic.AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.14, )"
@@ -79,24 +84,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.118\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\fitness_center\\fitness_center\\Dal.csproj": {
+    "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\fitness_center\\Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\fitness_center\\fitness_center\\Dal.csproj",
+        "projectUniqueName": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\fitness_center\\Dal.csproj",
         "projectName": "Dal",
-        "projectPath": "H:\\fitness_center\\fitness_center\\Dal.csproj",
-        "packagesPath": "C:\\Users\\לאופר אביגיל צירל\\.nuget\\packages\\",
-        "outputPath": "H:\\fitness_center\\fitness_center\\obj\\",
+        "projectPath": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\fitness_center\\Dal.csproj",
+        "packagesPath": "C:\\Users\\The user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\fitness_center\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\לאופר אביגיל צירל\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\The user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -105,6 +110,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -123,6 +129,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Magic.AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.14, )"
@@ -154,24 +164,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.118\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\fitness_center\\Server\\Server.csproj": {
+    "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\Server\\Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\fitness_center\\Server\\Server.csproj",
+        "projectUniqueName": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\Server\\Server.csproj",
         "projectName": "Server",
-        "projectPath": "H:\\fitness_center\\Server\\Server.csproj",
-        "packagesPath": "C:\\Users\\לאופר אביגיל צירל\\.nuget\\packages\\",
-        "outputPath": "H:\\fitness_center\\Server\\obj\\",
+        "projectPath": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\Server\\Server.csproj",
+        "packagesPath": "C:\\Users\\The user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\לאופר אביגיל צירל\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\The user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -180,15 +190,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "H:\\fitness_center\\BL\\BL.csproj": {
-                "projectPath": "H:\\fitness_center\\BL\\BL.csproj"
+              "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\BL\\BL.csproj": {
+                "projectPath": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\BL\\BL.csproj"
               }
             }
           }
@@ -203,6 +213,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Magic.AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.7, )"
@@ -245,7 +263,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.118\\RuntimeIdentifierGraph.json"
         }
       }
     }

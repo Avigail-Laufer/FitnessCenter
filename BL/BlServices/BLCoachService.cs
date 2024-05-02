@@ -10,6 +10,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AutoMapper;
+using Dal;
 
 namespace BL.BlServices;
 
@@ -19,12 +21,15 @@ public class BLCoachService : ICoachBL
     ICoachForTraining CoachForTrainingBL;
     ITraining trainingBL;
     ISchedule timeTrainingBL;
+    IMapper mapper;
     public BLCoachService(DalManager dal)
     {
         CoachBL = dal.Coaches;
         CoachForTrainingBL = dal.CoachForTrainings;
         trainingBL = dal.Trainings;
         timeTrainingBL = dal.Schedule;
+        var config = new MapperConfiguration(cfg => cfg.AddProfile<MappingProfile>());
+        mapper = config.CreateMapper();
 
     }
 
@@ -60,11 +65,12 @@ public class BLCoachService : ICoachBL
     {
         var listFormDall = CoachBL.GetAllCoachDal();
         List<BLCoach> list = new List<BLCoach>();
-        foreach (var c in listFormDall)
-        {
-            var newCoach = new BLCoach(c);
-            list.Add(newCoach);
-        }
+        listFormDall.ForEach(t => list.Add(mapper.Map<BLCoach>(t)));
+        //foreach (var c in listFormDall)
+        //{
+        //    var newCoach = new BLCoach(c);
+        //    list.Add(newCoach);
+        //}
         return list;
     }
 
