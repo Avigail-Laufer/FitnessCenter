@@ -68,3 +68,17 @@ C:\Users\The user\Desktop\לימודים ו\FitnessCenter\fitness_center\obj\Deb
 C:\Users\The user\Desktop\לימודים ו\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.pdb
 C:\Users\The user\Desktop\לימודים ו\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.genruntimeconfig.cache
 C:\Users\The user\Desktop\לימודים ו\FitnessCenter\fitness_center\obj\Debug\net7.0\ref\Dal.dll
+H:\FitnessCenter\fitness_center\bin\Debug\net7.0\Dal.deps.json
+H:\FitnessCenter\fitness_center\bin\Debug\net7.0\Dal.runtimeconfig.json
+H:\FitnessCenter\fitness_center\bin\Debug\net7.0\Dal.dll
+H:\FitnessCenter\fitness_center\bin\Debug\net7.0\Dal.pdb
+H:\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.csproj.AssemblyReference.cache
+H:\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+H:\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.AssemblyInfoInputs.cache
+H:\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.AssemblyInfo.cs
+H:\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.csproj.CoreCompileInputs.cache
+H:\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.dll
+H:\FitnessCenter\fitness_center\obj\Debug\net7.0\refint\Dal.dll
+H:\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.pdb
+H:\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.genruntimeconfig.cache
+H:\FitnessCenter\fitness_center\obj\Debug\net7.0\ref\Dal.dll

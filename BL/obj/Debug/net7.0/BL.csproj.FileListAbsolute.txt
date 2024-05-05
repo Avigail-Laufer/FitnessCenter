@@ -83,3 +83,20 @@ C:\Users\The user\Desktop\לימודים ו\FitnessCenter\BL\obj\Debug\net7.0\re
 C:\Users\The user\Desktop\לימודים ו\FitnessCenter\BL\obj\Debug\net7.0\BL.pdb
 C:\Users\The user\Desktop\לימודים ו\FitnessCenter\BL\obj\Debug\net7.0\BL.genruntimeconfig.cache
 C:\Users\The user\Desktop\לימודים ו\FitnessCenter\BL\obj\Debug\net7.0\ref\BL.dll
+H:\FitnessCenter\BL\bin\Debug\net7.0\BL.deps.json
+H:\FitnessCenter\BL\bin\Debug\net7.0\BL.runtimeconfig.json
+H:\FitnessCenter\BL\bin\Debug\net7.0\BL.dll
+H:\FitnessCenter\BL\bin\Debug\net7.0\BL.pdb
+H:\FitnessCenter\BL\bin\Debug\net7.0\Dal.dll
+H:\FitnessCenter\BL\bin\Debug\net7.0\Dal.pdb
+H:\FitnessCenter\BL\obj\Debug\net7.0\BL.csproj.AssemblyReference.cache
+H:\FitnessCenter\BL\obj\Debug\net7.0\BL.GeneratedMSBuildEditorConfig.editorconfig
+H:\FitnessCenter\BL\obj\Debug\net7.0\BL.AssemblyInfoInputs.cache
+H:\FitnessCenter\BL\obj\Debug\net7.0\BL.AssemblyInfo.cs
+H:\FitnessCenter\BL\obj\Debug\net7.0\BL.csproj.CoreCompileInputs.cache
+H:\FitnessCenter\BL\obj\Debug\net7.0\BL.csproj.CopyComplete
+H:\FitnessCenter\BL\obj\Debug\net7.0\BL.dll
+H:\FitnessCenter\BL\obj\Debug\net7.0\refint\BL.dll
+H:\FitnessCenter\BL\obj\Debug\net7.0\BL.pdb
+H:\FitnessCenter\BL\obj\Debug\net7.0\BL.genruntimeconfig.cache
+H:\FitnessCenter\BL\obj\Debug\net7.0\ref\BL.dll

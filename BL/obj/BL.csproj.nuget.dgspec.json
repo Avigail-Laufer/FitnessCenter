@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\BL\\BL.csproj": {}
+    "H:\\FitnessCenter\\BL\\BL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\BL\\BL.csproj": {
+    "H:\\FitnessCenter\\BL\\BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\BL\\BL.csproj",
+        "projectUniqueName": "H:\\FitnessCenter\\BL\\BL.csproj",
         "projectName": "BL",
-        "projectPath": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\BL\\BL.csproj",
-        "packagesPath": "C:\\Users\\The user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\BL\\obj\\",
+        "projectPath": "H:\\FitnessCenter\\BL\\BL.csproj",
+        "packagesPath": "C:\\Users\\לאופר אביגיל צירל\\.nuget\\packages\\",
+        "outputPath": "H:\\FitnessCenter\\BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\The user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\לאופר אביגיל צירל\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\fitness_center\\Dal.csproj": {
-                "projectPath": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\fitness_center\\Dal.csproj"
+              "H:\\FitnessCenter\\fitness_center\\Dal.csproj": {
+                "projectPath": "H:\\FitnessCenter\\fitness_center\\Dal.csproj"
               }
             }
           }
@@ -84,24 +83,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.118\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\fitness_center\\Dal.csproj": {
+    "H:\\FitnessCenter\\fitness_center\\Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\fitness_center\\Dal.csproj",
+        "projectUniqueName": "H:\\FitnessCenter\\fitness_center\\Dal.csproj",
         "projectName": "Dal",
-        "projectPath": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\fitness_center\\Dal.csproj",
-        "packagesPath": "C:\\Users\\The user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\fitness_center\\obj\\",
+        "projectPath": "H:\\FitnessCenter\\fitness_center\\Dal.csproj",
+        "packagesPath": "C:\\Users\\לאופר אביגיל צירל\\.nuget\\packages\\",
+        "outputPath": "H:\\FitnessCenter\\fitness_center\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\The user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\לאופר אביגיל צירל\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -110,7 +109,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -164,7 +162,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.118\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

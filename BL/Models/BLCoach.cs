@@ -32,6 +32,11 @@ public class BLCoach
         Email = c.Email;
         SalaryForHower = c.SalaryForHower;
         
-    }    
+    }
+    public BLCoach()
+    {
+       
+
+    }
 
 }

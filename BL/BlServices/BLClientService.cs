@@ -29,16 +29,16 @@ public class BLClientService : IClientBL
 
     public BLsimpleClient AddClientBL(BLsimpleClient client)
     {
-        Client newClient = new Client()
-        {
-            Id = client.Id,
-            FirstName = client.FirstName,
-            LastName = client.LastName,
-            Fhone = client.Fhone,
-            BirthDate = client.BirtDate,
-            TypeMemberCode = client.IdTypeMember
+        Client newClient = mapper.Map<Client>(client);
+        //{
+        //    Id = client.Id,
+        //    FirstName = client.FirstName,
+        //    LastName = client.LastName,
+        //    Fhone = client.Fhone,
+        //    BirthDate = client.BirtDate,
+        //    TypeMemberCode = client.IdTypeMember
 
-        };
+        //};
         if (client.email != null)
         {
             newClient.Email = client.email;
@@ -60,20 +60,7 @@ public class BLClientService : IClientBL
 
     public BLsimpleClient deleteClientBL(BLsimpleClient client)
     {
-        Client newClient = new Client()
-        {
-            Id = client.Id,
-            FirstName = client.FirstName,
-            LastName = client.LastName,
-            Fhone = client.Fhone,
-            BirthDate = client.BirtDate,
-            TypeMemberCode = client.IdTypeMember
-
-        };
-        if (client.email != null)
-        {
-            newClient.Email = client.email;
-        }
+        Client newClient = mapper.Map<Client>(client);
         var c = ClientBL.DeleteClient(newClient);
         return client;
     }
