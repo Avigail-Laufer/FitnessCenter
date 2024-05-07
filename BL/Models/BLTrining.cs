@@ -9,4 +9,5 @@ namespace BL.Models;
 public class BLTrining
 {
     public string Name { get; set; } = null!;
+    public string? PurposeOfTraining { get; set; }
 }

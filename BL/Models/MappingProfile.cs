@@ -55,7 +55,9 @@ public class MappingProfile : Profile
             .ForMember(dest => dest.SalaryForHower, opt => opt.MapFrom(src => src.SalaryForHower))
             .ForMember(dest => dest.Age, opt => opt.MapFrom(src => src.Age));
         CreateMap<Training,BLTrining>()
-            .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Name));
+            .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Name))
+            .ForMember(dest => dest.PurposeOfTraining, opt => opt.MapFrom(src => src.PurposeOfTraining));
+
         CreateMap<TimeTraining, BLschedule>()
               .ForMember(dest => dest.Day, opt => opt.MapFrom(src => src.Day))
               .ForMember(dest => dest.Time, opt => opt.MapFrom(src => src.Time))

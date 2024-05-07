@@ -18,13 +18,14 @@ public class TrainingController : ControllerBase
         this.blTraining = bl.trining;
     }
     [HttpGet("{id}")]
-    public List<BLTrining>? getgetTriningsforday(string id, string day)
+    public List<BLTrining>? getgetTriningsforday(string id)
     {
-     var list=   blTraining.getTriningsforday(id, day);
+     var list=   blTraining.getTriningsforday(id, "sunday");
         if (list == null)
             return null;
         return list;
     }
+
     [HttpGet]
     public List<BLTrining> getAllTrainings()=>blTraining.getAllTrainings();
 

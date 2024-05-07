@@ -478,9 +478,9 @@ H:\FitnessCenter\Server\obj\Debug\net7.0\staticwebassets.pack.json
 H:\FitnessCenter\Server\obj\Debug\net7.0\staticwebassets.build.json
 H:\FitnessCenter\Server\obj\Debug\net7.0\staticwebassets.development.json
 H:\FitnessCenter\Server\obj\Debug\net7.0\scopedcss\bundle\Server.styles.css
-H:\FitnessCenter\Server\obj\Debug\net7.0\Server.csproj.CopyComplete
 H:\FitnessCenter\Server\obj\Debug\net7.0\Server.dll
 H:\FitnessCenter\Server\obj\Debug\net7.0\refint\Server.dll
 H:\FitnessCenter\Server\obj\Debug\net7.0\Server.pdb
 H:\FitnessCenter\Server\obj\Debug\net7.0\Server.genruntimeconfig.cache
 H:\FitnessCenter\Server\obj\Debug\net7.0\ref\Server.dll
+H:\FitnessCenter\Server\obj\Debug\net7.0\Server.csproj.CopyComplete
