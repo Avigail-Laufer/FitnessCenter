@@ -52,5 +52,13 @@ namespace Server.Controllers
             return bLschedules;
 
         }
+        [HttpGet]
+        public List<BLschedule> DateOfTrainingForAclient(string id,string training)
+        {
+            return schdule.DateOfTrainingForAclient(id,training);
+        }
+
+
     }
+   
 }

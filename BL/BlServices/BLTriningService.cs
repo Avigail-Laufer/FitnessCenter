@@ -50,7 +50,7 @@ internal class BLTriningService : ITrainingBL
         {
             if(v.CodeDateNavigation.Day==day) 
             {
-                if(v.IdClientNavigation.Id.Equals(id))
+                if(v.IdClient.Equals(id))
                     b.Add(v);            
             }
         }         

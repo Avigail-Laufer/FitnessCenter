@@ -1,4 +1,5 @@
 ﻿using Dal.DalApi;
+using Microsoft.EntityFrameworkCore;
 using Server.Models;
 using System;
 using System.Collections.Generic;
@@ -20,7 +21,11 @@ public class DalSighnToService:ISighnToDal
 
     public List<SignTo> GetTimes()
     {
-        return _fitnessCenter.SignTos.ToList();
+        return _fitnessCenter.SignTos
+        .Include(t => t.CodeDateNavigation)
+        .ThenInclude(t => t.CoachForTrainingCodeNavigation)
+        .ThenInclude(t => t.CodeTrainingNavigation)
+        .ToList();
     }
 
     

@@ -14,9 +14,13 @@ namespace BL.BlServices
     public class BLSchduleSevices:ISchduleBL
     {
         ISchedule timeTrainingBL;
+        IClientDal clientDal;
+        ISighnToDal signTo;
         public BLSchduleSevices(DalManager dal)
         {
             timeTrainingBL = dal.Schedule;
+            clientDal = dal.Clients;
+            signTo= dal.sighnTo;
 
         }
 
@@ -94,6 +98,21 @@ namespace BL.BlServices
         public List<BLschedule> UpcomingDatesForRoom(int numOfRoom)
         {
             throw new NotImplementedException();
+        }
+
+        public List<BLschedule> DateOfTrainingForAclient(string id, string nameTraining)
+        {
+            List<SignTo> time = signTo.GetTimes();
+            List< BLschedule >s= new List<BLschedule >();
+            foreach (var item in time)
+            {
+
+                if (item.CodeDateNavigation.CoachForTrainingCodeNavigation.CodeTrainingNavigation.Name.Equals(nameTraining))
+                    if(item.IdClient.Equals(id))
+
+                   s.Add(new BLschedule(item.CodeDateNavigation));
+            }
+            return s;
         }
     }
 }
