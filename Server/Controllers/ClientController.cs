@@ -12,15 +12,17 @@ namespace Server.Controllers;
 [Route("api/[controller]")]
 public class ClientController : ControllerBase
 {
-  
+
     IClientBL blClient;
     public ClientController(BlManager bl)
     {
-       
+
         this.blClient = bl.client;
     }
     [HttpGet]
     public List<BLReturnClient> GetClient() => blClient.Clients();
+    [HttpGet("id/{id}")]
+    public BLsimpleClient GetClientById(string id) => blClient.GetClientById(id);
     [HttpPost]
     public BLsimpleClient Add(BLsimpleClient client) =>blClient.AddClientBL(client);
     [HttpDelete]

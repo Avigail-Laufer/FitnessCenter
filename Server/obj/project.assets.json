@@ -3468,23 +3468,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\The user\\.nuget\\packages\\": {},
+    "C:\\Users\\לאופר אביגיל צירל\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\Server\\Server.csproj",
+      "projectUniqueName": "H:\\FitnessCenter\\Server\\Server.csproj",
       "projectName": "Server",
-      "projectPath": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\Server\\Server.csproj",
-      "packagesPath": "C:\\Users\\The user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\Server\\obj\\",
+      "projectPath": "H:\\FitnessCenter\\Server\\Server.csproj",
+      "packagesPath": "C:\\Users\\לאופר אביגיל צירל\\.nuget\\packages\\",
+      "outputPath": "H:\\FitnessCenter\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\The user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\לאופר אביגיל צירל\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3493,15 +3493,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\BL\\BL.csproj": {
-              "projectPath": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\BL\\BL.csproj"
+            "H:\\FitnessCenter\\BL\\BL.csproj": {
+              "projectPath": "H:\\FitnessCenter\\BL\\BL.csproj"
             }
           }
         }
@@ -3566,7 +3566,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.119\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

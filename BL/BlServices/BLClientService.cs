@@ -101,6 +101,16 @@ public class BLClientService : IClientBL
     {
         throw new NotImplementedException();
     }
+
+    public BLsimpleClient GetClientById(string idClient)
+    {
+        var client = mapper.Map<BLsimpleClient>(ClientBL.GetAllAppointmentByIdDAL(idClient));
+        if(client == null)
+        {
+            return null;
+        }
+        return client;
+    }
 }
 
 

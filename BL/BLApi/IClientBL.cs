@@ -18,5 +18,7 @@ public interface IClientBL
     public List<BLschedule> GetAllTimeTriningBL(string nameOfTrining);
     public BLsimpleClient UppdateClientBL(BLsimpleClient client);
     public List<BLsimpleClient> GetAllAppointmentByIdBL(string idClient);
+    public BLsimpleClient GetClientById(string idClient);
+
 
 }
