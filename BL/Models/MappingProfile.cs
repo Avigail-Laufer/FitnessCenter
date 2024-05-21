@@ -30,7 +30,6 @@ public class MappingProfile : Profile
            .ForMember(dest => dest.LastName, opt => opt.MapFrom(src => src.LastName))
            .ForMember(dest => dest.email, opt => opt.MapFrom(src => src.Email))
            .ForMember(dest => dest.Fhone, opt => opt.MapFrom(src => src.Fhone))
-           .ForMember(dest => dest.Years, opt => opt.MapFrom(src => DateTime.Now.Year - src.BirthDate.Year))
            .ForMember(dest => dest.BirtDate, opt => opt.MapFrom(src => src.BirthDate))
            .ForMember(dest => dest.IdTypeMember, opt => opt.MapFrom(src => src.TypeMemberCode))
           ;
