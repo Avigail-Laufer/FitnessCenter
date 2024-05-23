@@ -42,7 +42,12 @@ public class MappingProfile : Profile
            .ForMember(dest => dest.BirthDate, opt => opt.MapFrom(src => src.BirtDate))
            .ForMember(dest => dest.TypeMemberCode, opt => opt.MapFrom(src => src.IdTypeMember))
           ;
-       
+        CreateMap<BLgetAppointment, SignTo>()
+          .ForMember(dest => dest.IdClient, opt => opt.MapFrom(src => src.idClient))
+          .ForMember(dest => dest.CodeDate, opt => opt.MapFrom(src => src.codeDate))
+          
+         ;
+
 
         //CreateMap<Client, BLsimpleClient>();
         CreateMap<Coach, BLCoach>()

@@ -28,7 +28,7 @@ namespace Server.Controllers
             return bLschedules;
             
         }
-        [HttpGet("nameTraining/{nameTraining}")]
+        [HttpGet("name/{nameTraining}")]
         public ActionResult<List<BLschedule>> GetDatesForTraining(string nameTraining) 
         { 
             List<BLschedule>bLschedules= schdule.DatesForTraining(nameTraining);

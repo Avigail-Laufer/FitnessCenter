@@ -16,6 +16,16 @@ internal class DalAppointmentService : IAppointment
     {
         _fitnessCenter = fitnessCenter;    
     }
+
+    public SignTo addApointment(SignTo signTo)
+    {
+        _fitnessCenter.SignTos.Add(signTo);
+        _fitnessCenter.SaveChanges();
+        return signTo; 
+
+
+    }
+
     public List<SignTo> GetAllAppointmentByIdBL()
     {
         return _fitnessCenter.SignTos

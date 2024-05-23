@@ -82,3 +82,31 @@ H:\FitnessCenter\fitness_center\obj\Debug\net7.0\refint\Dal.dll
 H:\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.pdb
 H:\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.genruntimeconfig.cache
 H:\FitnessCenter\fitness_center\obj\Debug\net7.0\ref\Dal.dll
+C:\Users\The user\Desktop\פרויקט סטאז\FitnessCenter\fitness_center\bin\Debug\net7.0\Dal.deps.json
+C:\Users\The user\Desktop\פרויקט סטאז\FitnessCenter\fitness_center\bin\Debug\net7.0\Dal.runtimeconfig.json
+C:\Users\The user\Desktop\פרויקט סטאז\FitnessCenter\fitness_center\bin\Debug\net7.0\Dal.dll
+C:\Users\The user\Desktop\פרויקט סטאז\FitnessCenter\fitness_center\bin\Debug\net7.0\Dal.pdb
+C:\Users\The user\Desktop\פרויקט סטאז\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.csproj.AssemblyReference.cache
+C:\Users\The user\Desktop\פרויקט סטאז\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\The user\Desktop\פרויקט סטאז\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.AssemblyInfoInputs.cache
+C:\Users\The user\Desktop\פרויקט סטאז\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.AssemblyInfo.cs
+C:\Users\The user\Desktop\פרויקט סטאז\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.csproj.CoreCompileInputs.cache
+C:\Users\The user\Desktop\פרויקט סטאז\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.dll
+C:\Users\The user\Desktop\פרויקט סטאז\FitnessCenter\fitness_center\obj\Debug\net7.0\refint\Dal.dll
+C:\Users\The user\Desktop\פרויקט סטאז\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.pdb
+C:\Users\The user\Desktop\פרויקט סטאז\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.genruntimeconfig.cache
+C:\Users\The user\Desktop\פרויקט סטאז\FitnessCenter\fitness_center\obj\Debug\net7.0\ref\Dal.dll
+C:\Users\The user\Desktop\project\FitnessCenter\fitness_center\bin\Debug\net7.0\Dal.deps.json
+C:\Users\The user\Desktop\project\FitnessCenter\fitness_center\bin\Debug\net7.0\Dal.runtimeconfig.json
+C:\Users\The user\Desktop\project\FitnessCenter\fitness_center\bin\Debug\net7.0\Dal.dll
+C:\Users\The user\Desktop\project\FitnessCenter\fitness_center\bin\Debug\net7.0\Dal.pdb
+C:\Users\The user\Desktop\project\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.csproj.AssemblyReference.cache
+C:\Users\The user\Desktop\project\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\The user\Desktop\project\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.AssemblyInfoInputs.cache
+C:\Users\The user\Desktop\project\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.AssemblyInfo.cs
+C:\Users\The user\Desktop\project\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.csproj.CoreCompileInputs.cache
+C:\Users\The user\Desktop\project\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.dll
+C:\Users\The user\Desktop\project\FitnessCenter\fitness_center\obj\Debug\net7.0\refint\Dal.dll
+C:\Users\The user\Desktop\project\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.pdb
+C:\Users\The user\Desktop\project\FitnessCenter\fitness_center\obj\Debug\net7.0\Dal.genruntimeconfig.cache
+C:\Users\The user\Desktop\project\FitnessCenter\fitness_center\obj\Debug\net7.0\ref\Dal.dll

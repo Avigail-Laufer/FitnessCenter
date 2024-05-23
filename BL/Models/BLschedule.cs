@@ -9,6 +9,7 @@ namespace BL.Models;
 
 public  class BLschedule
 {
+    public int Id { get; set; }
     public string Day { get; set; }
 
     public TimeSpan Time { get; set; }
@@ -16,6 +17,7 @@ public  class BLschedule
     public int? NumberRoom { get; set; }
     public BLschedule(TimeTraining t)
     {
+        Id= t.Id;
         Day = t.Day;
         Time = t.Time;
         NumberRoom = t.NumberRoom;
