@@ -17,12 +17,16 @@ namespace BL.BlServices;
 public class BLAppintmentServices : IAppointmentBL
 {
     IAppointment appointment;
+    ISighnToDal sighn;
+    IClientDal client;
     IMapper mapper;
     public BLAppintmentServices(DalManager dal)
     {
         appointment = dal.Appointmemt;
         var config = new MapperConfiguration(cfg => cfg.AddProfile<MappingProfile>());
         mapper = config.CreateMapper();
+        sighn = dal.sighnTo;
+        client = dal.Clients;
     }
 
    
@@ -53,6 +57,31 @@ public class BLAppintmentServices : IAppointmentBL
     {
         SignTo s = appointment.RemoveApointment((mapper.Map<SignTo>(appointmen)));
         return appointmen;
+
+    }
+    public BLpossibleAppointment numberOfPossibleAppointment(string id)
+    {
+
+        var c = client.GetClientWhithTypeMember(id);
+        if (c == null)
+        {
+            return null;
+        }
+        int count = c.SignTos.Count();
+        switch (c.TypeMemberCode)
+        {
+            case 1:
+                return new BLpossibleAppointment(2 - count);
+            case 2:
+                return new BLpossibleAppointment(3 - count);
+            case 3:
+                return new BLpossibleAppointment(1 - count);
+            case 4:
+                return new BLpossibleAppointment(1);
+
+
+        }
+        return null;
 
     }
 

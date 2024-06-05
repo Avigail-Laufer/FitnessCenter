@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace BL.Models
 {
-    internal class BLpossibleAppointment
+   public class BLpossibleAppointment
     {
+        public int num { get; set; }
+        public BLpossibleAppointment(int num)
+        {
+            this.num = num;
+        }
     }
 }

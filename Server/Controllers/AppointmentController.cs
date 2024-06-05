@@ -15,6 +15,8 @@ namespace Server.Controllers
 
             this.appointment = bl.Appointment;
         }
+        [HttpGet]
+        public ActionResult<BLpossibleAppointment> GetPossibleAppointment(string id) => appointment.numberOfPossibleAppointment(id);
         [HttpPost]
         public BLgetAppointment getApo(BLgetAppointment a) {
            

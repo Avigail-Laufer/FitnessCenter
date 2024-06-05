@@ -81,4 +81,12 @@ public class DalClientService : IClientDal
         return clients;
 
     }
+    public Client GetClientWhithTypeMember(string id)
+    {
+        var trainings = _fitnessCenter.Clients
+        .Include(Client => Client.SignTos)
+        .FirstOrDefault(client => client.Id == id);
+        if (trainings == null) { return null; }
+        return trainings;
+    }
 }

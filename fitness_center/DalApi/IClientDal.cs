@@ -21,4 +21,5 @@ public interface IClientDal
     public List<TimeTraining> GetAllTimeTrining(string nameOfTrining);
 
     public Client UppdateClient(Client client);
+    public Client GetClientWhithTypeMember(string id);
 }
