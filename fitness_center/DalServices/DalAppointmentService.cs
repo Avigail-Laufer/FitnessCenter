@@ -34,4 +34,11 @@ internal class DalAppointmentService : IAppointment
         .ThenInclude(t => t.CodeTrainingNavigation)
         .ToList();
     }
+
+    public SignTo RemoveApointment(SignTo signTo)
+    {
+        _fitnessCenter.SignTos.Remove(signTo);
+        _fitnessCenter.SaveChanges();
+        return signTo;
+    }
 }

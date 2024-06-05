@@ -36,5 +36,13 @@ public class DalTrainingService:ITraining
         t.Name=training.Name;
         return t;
     }
+    public Training deleteTraining(Training training) 
+    {
+        _fitnessCenter.Trainings.Remove(training);
+        _fitnessCenter.SaveChanges();
+        return training;
+
+    }
+
    
 }

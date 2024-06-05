@@ -22,5 +22,14 @@ namespace Server.Controllers
                     return a;
             return null;
         }
+        [HttpDelete]
+        public BLgetAppointment deleteApo(BLgetAppointment a)
+        {
+
+            if (appointment.RemoveAppointmentBL(a) != null)
+                return a;
+            return null;
+        }
+
     }
 }

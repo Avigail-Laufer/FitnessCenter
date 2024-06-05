@@ -49,6 +49,12 @@ public class BLAppintmentServices : IAppointmentBL
         return appointmen;
             
     }
+    BLgetAppointment IAppointmentBL.RemoveAppointmentBL(BLgetAppointment appointmen)
+    {
+        SignTo s = appointment.RemoveApointment((mapper.Map<SignTo>(appointmen)));
+        return appointmen;
 
-   
+    }
+
+
 }

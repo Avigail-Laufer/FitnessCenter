@@ -12,5 +12,7 @@ namespace Dal.DalApi
     {
         public List<SignTo> GetAllAppointmentByIdBL();
         public SignTo addApointment(SignTo signTo);
+        public SignTo RemoveApointment(SignTo signTo);
+
     }
 }

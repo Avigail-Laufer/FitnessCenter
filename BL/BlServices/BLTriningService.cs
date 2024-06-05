@@ -31,6 +31,8 @@ internal class BLTriningService : ITrainingBL
         mapper = config.CreateMapper();
     }
 
+   
+
     public List<BLTrining> getAllTrainings()
     {
         var listFromDall=dalTraining.GetAllTrainings();
@@ -65,11 +67,26 @@ internal class BLTriningService : ITrainingBL
         return bLTrinings;
       
     }
+    public void deleteTrainingById(string id, Training training)
+    {
+        var t = getTriningsforday(id,"sunday");
+        BLTrining t2 = t.FirstOrDefault(t => t.Name ==training.Name);
+        
+
+
+    }
 
     List<Training> ITrainingBL.GetTrainingsByDay(string day)
     {
         throw new NotImplementedException();
     }
+
+    //public BLTrining deleteTraining(BLTrining training)
+    //{
+    //   var t= dalTraining.deleteTraining(mapper.Map<Trining>(training))
+    //}
+
+
 
     //public List<Training> GetTrainingsByDay(string day)
     //{

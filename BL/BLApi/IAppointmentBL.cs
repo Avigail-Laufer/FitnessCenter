@@ -12,4 +12,5 @@ public interface IAppointmentBL
 {
     public List<BLAppointment> GetAllAppointmentByIdBL(string id);
     public BLgetAppointment AddAppointmentBL(BLgetAppointment appointment);
+    public BLgetAppointment RemoveAppointmentBL(BLgetAppointment appointment);
 }
