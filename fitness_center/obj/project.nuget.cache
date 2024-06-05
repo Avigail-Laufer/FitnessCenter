@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ubBRF7XvSCIoEQeDDFrIsp5QlH7W9D+WDSe9Qj4ZFtckXG058CYnEkr/XyuOF5fFN1fB2VTBPqbZFgQEAjMT9g==",
+  "dgSpecHash": "HJlXlkJM/Cases+uLvu+yXhwwqsRNzOUfVGzSHOPHkQX6UEMFrqT7wkQU5RGbSQgpcbDu/5FDyDi1PrYjsaGRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\The user\\Desktop\\project\\FitnessCenter\\fitness_center\\Dal.csproj",
+  "projectFilePath": "C:\\Users\\The user\\Desktop\\לימודים ו\\FitnessCenter\\fitness_center\\Dal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\The user\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\The user\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
