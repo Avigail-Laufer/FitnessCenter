@@ -81,6 +81,32 @@ internal class BLTriningService : ITrainingBL
         throw new NotImplementedException();
     }
 
+    public List<BLTrining> GetTrainingsById(string id)
+    {
+       
+        var client = dalClint.GetClients().FirstOrDefault(c => c.Id == id);
+        if (client == null)
+            return null;
+        List<SignTo> b = new List<SignTo>();
+        foreach (var v in sighnTo.GetTimes())
+        {
+           
+                if (v.IdClient.Equals(id))
+                    b.Add(v);
+           
+        }
+        //var b= sighnTo.GetTimes().Where(v => v.CodeDateNavigation.Day == day).Where(v => v.Id.Equals(client.Id));
+        List<BLTrining> bLTrinings = new List<BLTrining>();
+        foreach (var n in b)
+        {
+            var s = n.CodeDateNavigation.CoachForTrainingCodeNavigation.CodeTrainingNavigation.Name;
+            BLTrining newbl = new BLTrining() { Name = s };
+            bLTrinings.Add(newbl);
+        }
+        return bLTrinings;
+
+    }
+
     //public BLTrining deleteTraining(BLTrining training)
     //{
     //   var t= dalTraining.deleteTraining(mapper.Map<Trining>(training))

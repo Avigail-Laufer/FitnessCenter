@@ -11,6 +11,7 @@ namespace Dal.DalApi;
 public interface ITraining
 {
     public List<Training> GetAllTrainings();
+    public List<Training> GetTrainingById();
     public Training? updateTraining(Training training);
     public Training? deleteTraining(Training training);
 }

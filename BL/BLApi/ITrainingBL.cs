@@ -13,6 +13,7 @@ public interface ITrainingBL
     public List<BLTrining>? getTriningsforday(string id, string day);
     public List<BLTrining> getAllTrainings();
     public List<Training> GetTrainingsByDay(string day);
+    public List<BLTrining> GetTrainingsById(string id);
     //public BLTrining deleteTraining(BLTrining);
 
 

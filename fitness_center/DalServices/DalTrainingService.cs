@@ -44,5 +44,8 @@ public class DalTrainingService:ITraining
 
     }
 
-   
+    public List<Training> GetTrainingById()
+    {
+        throw new NotImplementedException();
+    }
 }

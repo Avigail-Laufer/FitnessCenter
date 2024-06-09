@@ -20,7 +20,7 @@ public class TrainingController : ControllerBase
     [HttpGet("{id}")]
     public List<BLTrining>? getgetTriningsforday(string id)
     {
-     var list=   blTraining.getTriningsforday(id, "sunday");
+     var list=   blTraining.GetTrainingsById(id);
         if (list == null)
             return null;
         return list;
