@@ -66,7 +66,9 @@ public class MappingProfile : Profile
               .ForMember(dest => dest.Day, opt => opt.MapFrom(src => src.Day))
               .ForMember(dest => dest.Time, opt => opt.MapFrom(src => src.Time))
               .ForMember(dest => dest.NumberRoom, opt => opt.MapFrom(src => src.NumberRoom));
-       
+        CreateMap<TypeMember, BLtypeMember>();
+
+
     }
 
 }

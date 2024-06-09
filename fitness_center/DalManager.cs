@@ -14,6 +14,7 @@ public class DalManager
     public IAppointment Appointmemt { get; set; }
     public ISchedule Schedule { get; set; }
     public ISighnToDal sighnTo { get; set; }
+    public ITypeMember TypeMember { get; set; }
     public DalManager() {
         ServiceCollection services = new ServiceCollection();
         services.AddSingleton<FitnessCenterContext>();
@@ -25,6 +26,7 @@ public class DalManager
         services.AddScoped<IAppointment, DalAppointmentService>();
         services.AddScoped<ISchedule, DalScheduleService>();
         services.AddScoped<ISighnToDal, DalSighnToService>();
+        services.AddScoped<ITypeMember, DalTypeMemberService>();
         ServiceProvider Provider = services.BuildServiceProvider();
         Clients = Provider.GetService<IClientDal>();
         Coaches = Provider.GetService<ICoachDal>();
@@ -33,6 +35,7 @@ public class DalManager
         Appointmemt = Provider.GetService<IAppointment>();
         Schedule= Provider.GetService<ISchedule>();
         sighnTo = Provider.GetService<ISighnToDal>();
+        TypeMember= Provider.GetService<ITypeMember>();
     }
 
 }
