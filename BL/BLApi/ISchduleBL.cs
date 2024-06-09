@@ -15,6 +15,7 @@ namespace BL.BLApi
         public List<BLschedule> UpcomingDatesForRoom(int numOfRoom);
         public List<BLschedule> DatesForDayOfTheWeek(string dayOfWeek);
         public List<BLschedule> DateOfTrainingForAclient(string id, string nameTraining);
+        public BLschedule deletescudel(string idScudel, string nameTraining);
 
 
     }

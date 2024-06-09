@@ -114,6 +114,23 @@ namespace BL.BlServices
             }
             return s;
         }
+        public BLschedule deletescudel(string idScudel, string nameTraining)
+        {
+            List<SignTo> time = signTo.GetTimes();
+            BLschedule s=null ;
+            foreach (var item in time)
+            {
+
+                if (item.CodeDateNavigation.CoachForTrainingCodeNavigation.CodeTrainingNavigation.Name.Equals(nameTraining))
+                    if (item.IdClient.Equals(idScudel)) {
+                        time.Remove(item);
+                    
+                    }
+                 
+            }
+            return s;
+
+        }
     }
 }
 

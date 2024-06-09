@@ -2,6 +2,7 @@
 using BL;
 using Microsoft.AspNetCore.Mvc;
 using BL.Models;
+using Server.Models;
 
 namespace Server.Controllers
 {
@@ -56,6 +57,11 @@ namespace Server.Controllers
         public List<BLschedule> DateOfTrainingForAclient(string id,string training)
         {
             return schdule.DateOfTrainingForAclient(id,training);
+        }
+        [HttpDelete]
+        public BLschedule deletescudel(string idScudel, string nameTraining) 
+        {
+            return schdule.deletescudel(idScudel, nameTraining);
         }
 
 
