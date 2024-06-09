@@ -11,8 +11,8 @@ namespace Dal.DalServices
 {
     public class DalCoachService : ICoachDal
     {
-       FitnessCenterContext _fitnessCenter;
-        public DalCoachService(FitnessCenterContext _fitnessCenter)
+       BlogsSiteContext _fitnessCenter;
+        public DalCoachService(BlogsSiteContext _fitnessCenter)
         {
             this._fitnessCenter = _fitnessCenter;
         }

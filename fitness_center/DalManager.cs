@@ -15,9 +15,10 @@ public class DalManager
     public ISchedule Schedule { get; set; }
     public ISighnToDal sighnTo { get; set; }
     public ITypeMember TypeMember { get; set; }
+    public IComments comment { get; set; }
     public DalManager() {
         ServiceCollection services = new ServiceCollection();
-        services.AddSingleton<FitnessCenterContext>();
+        services.AddSingleton<BlogsSiteContext>();
         // מוסיפים לאוסף את אוביקט ממחלקות השרות
         services.AddSingleton<IClientDal,DalClientService>();
         services.AddSingleton<ICoachDal, DalCoachService>();
@@ -27,6 +28,7 @@ public class DalManager
         services.AddScoped<ISchedule, DalScheduleService>();
         services.AddScoped<ISighnToDal, DalSighnToService>();
         services.AddScoped<ITypeMember, DalTypeMemberService>();
+        services.AddScoped<IComments, DalCommentsService>();
         ServiceProvider Provider = services.BuildServiceProvider();
         Clients = Provider.GetService<IClientDal>();
         Coaches = Provider.GetService<ICoachDal>();
@@ -36,6 +38,7 @@ public class DalManager
         Schedule= Provider.GetService<ISchedule>();
         sighnTo = Provider.GetService<ISighnToDal>();
         TypeMember= Provider.GetService<ITypeMember>();
+        comment = Provider.GetService<IComments>();
     }
 
 }

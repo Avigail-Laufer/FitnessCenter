@@ -23,7 +23,8 @@ public class BlManager
     public ISchduleBL schedule { get; set; }
     public ITrainingBL trining { get; set; }
     public ITypeMemberBL TypeMember { get; set; }
-    
+    public ICommentsBL comment { get; set; }
+
 
     public BlManager() {
         ServiceCollection services = new ServiceCollection();
@@ -34,6 +35,7 @@ public class BlManager
         services.AddScoped<ISchduleBL, BLSchduleSevices>();
         services.AddScoped<ITrainingBL,BLTriningService>();
         services.AddScoped<ITypeMemberBL, BLTypeMemberService>();
+        services.AddScoped<ICommentsBL, BLCommentService>();
         services.AddAutoMapper(typeof(MappingProfile));
         ServiceProvider Provider = services.BuildServiceProvider();
         client = Provider.GetService<IClientBL>();
@@ -42,6 +44,7 @@ public class BlManager
         schedule=Provider.GetService<ISchduleBL>();
         trining = Provider.GetService<ITrainingBL>();
         TypeMember= Provider.GetService<ITypeMemberBL>();
+        comment= Provider.GetService<ICommentsBL>();
 
     }
 }

@@ -10,8 +10,8 @@ namespace Dal.DalServices;
 
 public class DalTrainingService:ITraining
 {
-    FitnessCenterContext _fitnessCenter;
-    public DalTrainingService(FitnessCenterContext _fitnessCenter)
+    BlogsSiteContext _fitnessCenter;
+    public DalTrainingService(BlogsSiteContext _fitnessCenter)
     {
         this._fitnessCenter = _fitnessCenter;
     }

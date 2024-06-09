@@ -11,8 +11,8 @@ namespace Dal.DalServices;
 
 public class DalClientService : IClientDal
 {
-    FitnessCenterContext _fitnessCenter;
-    public DalClientService(FitnessCenterContext _fitnessCenter) { 
+    BlogsSiteContext _fitnessCenter;
+    public DalClientService(BlogsSiteContext _fitnessCenter) { 
         this._fitnessCenter = _fitnessCenter;
     }
 

@@ -19,6 +19,8 @@ public partial class Client
 
     public DateTime BirthDate { get; set; }
 
+    public virtual ICollection<Comment> Comments { get; set; } = new List<Comment>();
+
     public virtual ICollection<SignTo> SignTos { get; set; } = new List<SignTo>();
 
     public virtual TypeMember TypeMemberCodeNavigation { get; set; } = null!;

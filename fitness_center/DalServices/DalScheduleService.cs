@@ -11,8 +11,8 @@ namespace Dal.DalServices
 {
     public class DalScheduleService:ISchedule
     {
-        FitnessCenterContext _fitnessCenter;
-        public DalScheduleService(FitnessCenterContext _fitnessCenter)
+        BlogsSiteContext _fitnessCenter;
+        public DalScheduleService(BlogsSiteContext _fitnessCenter)
         {
             this._fitnessCenter = _fitnessCenter;
         }

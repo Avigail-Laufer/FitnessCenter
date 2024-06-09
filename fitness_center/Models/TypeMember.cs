@@ -11,5 +11,7 @@ public partial class TypeMember
 
     public int MonthlyPayment { get; set; }
 
+    public int? CountTraining { get; set; }
+
     public virtual ICollection<Client> Clients { get; set; } = new List<Client>();
 }

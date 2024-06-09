@@ -10,8 +10,8 @@ namespace Dal.DalServices
 {
     internal class DalTypeMemberService : ITypeMember
     {
-        FitnessCenterContext _fitnessCenter;
-        public DalTypeMemberService(FitnessCenterContext _fitnessCenter)
+       BlogsSiteContext _fitnessCenter;
+        public DalTypeMemberService(BlogsSiteContext _fitnessCenter)
         {
             this._fitnessCenter = _fitnessCenter;
         }

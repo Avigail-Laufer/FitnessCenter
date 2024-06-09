@@ -12,8 +12,8 @@ namespace Dal.DalServices;
 public class DalSighnToService:ISighnToDal
 {
 
-    FitnessCenterContext _fitnessCenter;
-    public DalSighnToService(FitnessCenterContext _fitnessCenter)
+    BlogsSiteContext _fitnessCenter;
+    public DalSighnToService(BlogsSiteContext _fitnessCenter)
     {
         this._fitnessCenter = _fitnessCenter;
     }

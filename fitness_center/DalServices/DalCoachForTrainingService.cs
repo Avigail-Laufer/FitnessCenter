@@ -11,8 +11,8 @@ namespace Dal.DalServices
 {
     internal class DalCoachForTrainingService : ICoachForTraining
     {
-        FitnessCenterContext _fitnessCenter;
-        public DalCoachForTrainingService(FitnessCenterContext fitnessCenter) {
+        BlogsSiteContext _fitnessCenter;
+        public DalCoachForTrainingService(BlogsSiteContext fitnessCenter) {
             _fitnessCenter = fitnessCenter; 
         } 
         public List<CoachForTraining> GetCoachForTraining()

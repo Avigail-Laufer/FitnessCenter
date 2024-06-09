@@ -11,8 +11,8 @@ namespace Dal.DalServices;
 
 internal class DalAppointmentService : IAppointment
 {
-    FitnessCenterContext _fitnessCenter;
-    public DalAppointmentService(FitnessCenterContext fitnessCenter)
+   BlogsSiteContext _fitnessCenter;
+    public DalAppointmentService(BlogsSiteContext fitnessCenter)
     {
         _fitnessCenter = fitnessCenter;    
     }
