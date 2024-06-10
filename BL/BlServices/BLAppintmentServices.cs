@@ -68,19 +68,8 @@ public class BLAppintmentServices : IAppointmentBL
             return null;
         }
         int count = c.SignTos.Count();
-        switch (c.TypeMemberCode)
-        {
-            case 1:
-                return new BLpossibleAppointment(2 - count);
-            case 2:
-                return new BLpossibleAppointment(3 - count);
-            case 3:
-                return new BLpossibleAppointment(1 - count);
-            case 4:
-                return new BLpossibleAppointment(1);
+        return new BLpossibleAppointment(Convert.ToInt32( c.TypeMemberCodeNavigation.CountTraining) - count);
 
-
-        }
         return null;
 
     }

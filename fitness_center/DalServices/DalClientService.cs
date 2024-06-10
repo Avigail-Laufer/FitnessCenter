@@ -85,6 +85,7 @@ public class DalClientService : IClientDal
     {
         var trainings = _fitnessCenter.Clients
         .Include(Client => Client.SignTos)
+        .Include(client=>client.TypeMemberCodeNavigation)
         .FirstOrDefault(client => client.Id == id);
         if (trainings == null) { return null; }
         return trainings;
