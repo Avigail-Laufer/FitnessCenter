@@ -131,9 +131,8 @@ public partial class BlogsSiteContext : DbContext
 
         modelBuilder.Entity<Comment>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Comments__3214EC07FC270F55");
+            entity.HasKey(e => e.Id).HasName("PK__tmp_ms_x__3214EC079905D0C9");
 
-            entity.Property(e => e.Id).ValueGeneratedNever();
             entity.Property(e => e.Comments)
                 .HasMaxLength(100)
                 .UseCollation("SQL_Latin1_General_CP1_CI_AS");
