@@ -55,8 +55,23 @@ public class BLAppintmentServices : IAppointmentBL
     }
     BLgetAppointment IAppointmentBL.RemoveAppointmentBL(BLgetAppointment appointmen)
     {
-        SignTo s = appointment.RemoveApointment((mapper.Map<SignTo>(appointmen)));
-        return appointmen;
+        List<SignTo> appointments = appointment.GetAllAppointmentByIdBL();
+        SignTo appointmentToRemove = appointments.FirstOrDefault(item => item.IdClient == appointmen.idClient && item.CodeDate == appointmen.codeDate);
+
+        if (appointmentToRemove != null)
+        {
+            appointment.RemoveApointment(new SignTo()
+            {
+                Id = appointmentToRemove.Id,
+                CodeDate = appointmen.codeDate,
+                IdClient = appointmen.idClient
+            }
+
+                );
+            return appointmen;
+        }
+
+        return null;
 
     }
     public BLpossibleAppointment numberOfPossibleAppointment(string id)
