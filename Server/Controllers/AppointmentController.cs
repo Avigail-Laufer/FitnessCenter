@@ -19,9 +19,9 @@ namespace Server.Controllers
         public ActionResult<BLpossibleAppointment> GetPossibleAppointment(string id) => appointment.numberOfPossibleAppointment(id);
         [HttpPost]
         public BLgetAppointment getApo(BLgetAppointment a) {
-           
-                if (appointment.AddAppointmentBL(a) != null)
-                    return a;
+
+            if (appointment.AddAppointmentBL(a) != null)
+                return a;
             return null;
         }
         [HttpDelete]
@@ -31,6 +31,13 @@ namespace Server.Controllers
             if (appointment.RemoveAppointmentBL(a) != null)
                 return a;
             return null;
+        }
+        [HttpGet("{bool}")]
+        public bool ifCanAddApointment(int codeDate, string id) 
+        {
+            return appointment.ifCanAddApointment(codeDate, id);
+               
+
         }
 
     }

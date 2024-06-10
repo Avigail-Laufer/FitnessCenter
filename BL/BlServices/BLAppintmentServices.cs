@@ -89,5 +89,11 @@ public class BLAppintmentServices : IAppointmentBL
 
     }
 
-
+    public bool ifCanAddApointment(int codeDate,string id)
+    {
+        List<SignTo> appointments = appointment.GetAllAppointmentByIdBL();
+        SignTo? appoint = appointments.FirstOrDefault(item =>item.IdClient  == id && item.CodeDate==codeDate);
+        if(appoint == null) { return true; }
+        return false;
+    }
 }

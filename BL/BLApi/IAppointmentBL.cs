@@ -14,4 +14,5 @@ public interface IAppointmentBL
     public BLgetAppointment AddAppointmentBL(BLgetAppointment appointment);
     public BLgetAppointment RemoveAppointmentBL(BLgetAppointment appointment);
     public BLpossibleAppointment numberOfPossibleAppointment(string id);
+    public Boolean ifCanAddApointment(int codeDate, string id);
 }
