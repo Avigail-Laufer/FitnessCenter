@@ -33,7 +33,7 @@ public partial class BlogsSiteContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\The user\\Desktop\\project\\FitnessCenter\\data\\dataFitness_center.mdf\";Integrated Security=True;Connect Timeout=30");
+        => optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\The user\\Desktop\\FitnessCenter\\data\\dataFitness_center.mdf\";Integrated Security=True;TrustServerCertificate=True;Connect Timeout=30");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -43,28 +43,25 @@ public partial class BlogsSiteContext : DbContext
 
             entity.ToTable("client");
 
-            entity.Property(e => e.Id)
-                .HasMaxLength(50)
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS");
+            entity.Property(e => e.Id).HasMaxLength(50);
             entity.Property(e => e.BirthDate)
                 .HasColumnType("date")
                 .HasColumnName("birthDate");
             entity.Property(e => e.Email)
                 .HasMaxLength(40)
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS")
                 .HasColumnName("email");
             entity.Property(e => e.Fhone)
                 .HasMaxLength(20)
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS")
                 .HasColumnName("fhone");
             entity.Property(e => e.FirstName)
                 .HasMaxLength(10)
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS")
                 .HasColumnName("firstName");
             entity.Property(e => e.LastName)
                 .HasMaxLength(10)
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS")
                 .HasColumnName("lastName");
+            entity.Property(e => e.Password)
+                .HasMaxLength(50)
+                .HasColumnName("password");
             entity.Property(e => e.TypeMemberCode).HasColumnName("typeMemberCode");
 
             entity.HasOne(d => d.TypeMemberCodeNavigation).WithMany(p => p.Clients)
@@ -81,24 +78,19 @@ public partial class BlogsSiteContext : DbContext
 
             entity.Property(e => e.Id)
                 .HasMaxLength(9)
-                .IsFixedLength()
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS");
+                .IsFixedLength();
             entity.Property(e => e.Age).HasColumnName("age");
             entity.Property(e => e.Email)
                 .HasMaxLength(50)
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS")
                 .HasColumnName("email");
             entity.Property(e => e.Fhone)
                 .HasMaxLength(10)
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS")
                 .HasColumnName("fhone");
             entity.Property(e => e.FirstName)
                 .HasMaxLength(10)
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS")
                 .HasColumnName("firstName");
             entity.Property(e => e.LastName)
                 .HasMaxLength(10)
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS")
                 .HasColumnName("lastName");
             entity.Property(e => e.SalaryForHower)
                 .HasColumnType("money")
@@ -114,7 +106,6 @@ public partial class BlogsSiteContext : DbContext
             entity.Property(e => e.CodeCoach)
                 .HasMaxLength(9)
                 .IsFixedLength()
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS")
                 .HasColumnName("codeCoach");
             entity.Property(e => e.CodeTraining).HasColumnName("codeTraining");
 
@@ -133,12 +124,9 @@ public partial class BlogsSiteContext : DbContext
         {
             entity.HasKey(e => e.Id).HasName("PK__tmp_ms_x__3214EC079905D0C9");
 
-            entity.Property(e => e.Comments)
-                .HasMaxLength(100)
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS");
+            entity.Property(e => e.Comments).HasMaxLength(100);
             entity.Property(e => e.IdClient)
                 .HasMaxLength(50)
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS")
                 .HasColumnName("idClient");
 
             entity.HasOne(d => d.IdClientNavigation).WithMany(p => p.Comments)
@@ -156,7 +144,6 @@ public partial class BlogsSiteContext : DbContext
             entity.Property(e => e.CodeDate).HasColumnName("codeDate");
             entity.Property(e => e.IdClient)
                 .HasMaxLength(50)
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS")
                 .HasColumnName("idClient");
 
             entity.HasOne(d => d.CodeDateNavigation).WithMany(p => p.SignTos)
@@ -179,7 +166,6 @@ public partial class BlogsSiteContext : DbContext
             entity.Property(e => e.CoachForTrainingCode).HasColumnName("coachForTrainingCode");
             entity.Property(e => e.Day)
                 .HasMaxLength(20)
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS")
                 .HasColumnName("day");
             entity.Property(e => e.NumberRoom).HasColumnName("numberRoom");
             entity.Property(e => e.Time).HasColumnName("time");
@@ -196,13 +182,14 @@ public partial class BlogsSiteContext : DbContext
 
             entity.ToTable("trainings");
 
+            entity.Property(e => e.Img)
+                .HasMaxLength(50)
+                .HasColumnName("img");
             entity.Property(e => e.Name)
                 .HasMaxLength(20)
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS")
                 .HasColumnName("name");
             entity.Property(e => e.PurposeOfTraining)
                 .HasMaxLength(300)
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS")
                 .HasColumnName("purposeOfTraining");
         });
 
@@ -213,10 +200,12 @@ public partial class BlogsSiteContext : DbContext
             entity.ToTable("typeMember");
 
             entity.Property(e => e.CountTraining).HasColumnName("countTraining");
+            entity.Property(e => e.Description)
+                .HasMaxLength(200)
+                .HasColumnName("description");
             entity.Property(e => e.MonthlyPayment).HasColumnName("monthlyPayment");
             entity.Property(e => e.Type)
                 .HasMaxLength(50)
-                .UseCollation("SQL_Latin1_General_CP1_CI_AS")
                 .HasColumnName("type");
         });
 

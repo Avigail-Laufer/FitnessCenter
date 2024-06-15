@@ -10,4 +10,6 @@ public class BLTrining
 {
     public string Name { get; set; } = null!;
     public string? PurposeOfTraining { get; set; }
+    public byte[] imageBytes { get; set; }
+    public string? Img { get; set; }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3Le4cKcaWfky/dObmUViFKbgurilq+mMx+fR4ZzESV+2ymnpFuPVCB8mMehJ0YtWxWuSX22j5G7H9Em/NDizPA==",
+  "dgSpecHash": "KWDzA7Z0ADxxer7F60plLEXkGxb3o015IYT+sXBKF+xAl+SpT4AmTzv6tP9C27nWwWwfd3YUiFUFrf+iQR97EA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\The user\\Desktop\\project\\FitnessCenter\\BL\\BL.csproj",
+  "projectFilePath": "C:\\Users\\The user\\Desktop\\FitnessCenter\\BL\\BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\The user\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\The user\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",

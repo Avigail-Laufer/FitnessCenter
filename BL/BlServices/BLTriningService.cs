@@ -38,7 +38,27 @@ internal class BLTriningService : ITrainingBL
         var listFromDall=dalTraining.GetAllTrainings();
         List<BLTrining> list = new List<BLTrining>();
         listFromDall.ForEach(t => list.Add(mapper.Map<BLTrining>(t)));
+        foreach (var training in list)
+        {
+            if (!string.IsNullOrEmpty(training.Img))
+            {
+                // Load the image corresponding to the Img path and assign it to a property in Training class
+                training.imageBytes = LoadImageFromPath(training.Img);
+            }
+        }
         return list;
+    }
+
+    private byte[] LoadImageFromPath(string imagePath)
+
+    {
+        string currentDirectory = Directory.GetCurrentDirectory();
+
+        //// Navigate to the images folder from the current directory
+        string imagesFolderPath = Path.Combine(currentDirectory, imagePath);
+        // Implement the logic to load the image from the specified path and return it as a byte array
+        // For example, you can use System.IO.File.ReadAllBytes method
+        return System.IO.File.ReadAllBytes("C:\\Users\\The user\\Desktop\\FitnessCenter\\BL\\Images\\"+ imagePath);
     }
 
     public List<BLTrining>? getTriningsforday(string id, string day)

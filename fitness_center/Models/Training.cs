@@ -11,5 +11,7 @@ public partial class Training
 
     public string? PurposeOfTraining { get; set; }
 
+    public string? Img { get; set; }
+
     public virtual ICollection<CoachForTraining> CoachForTrainings { get; set; } = new List<CoachForTraining>();
 }

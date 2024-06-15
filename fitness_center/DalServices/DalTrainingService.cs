@@ -17,6 +17,7 @@ public class DalTrainingService:ITraining
     }
     public List<Training> GetAllTrainings() 
     {
+     
      return _fitnessCenter.Trainings.ToList();
     }
     public Training addTraining(Training training)

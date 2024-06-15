@@ -13,5 +13,7 @@ public partial class TypeMember
 
     public int? CountTraining { get; set; }
 
+    public string Description { get; set; } = null!;
+
     public virtual ICollection<Client> Clients { get; set; } = new List<Client>();
 }
