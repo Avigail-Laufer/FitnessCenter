@@ -70,6 +70,7 @@ public class MappingProfile : Profile
         CreateMap<Comment, BLComments>()
             .ForMember(dest => dest.ClientName, opt => opt.MapFrom(src => src.IdClientNavigation.FirstName));
         CreateMap<BLComments, Comment>();
+        CreateMap<BLCreditCard, CreditCard>();
 
 
 

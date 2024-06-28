@@ -16,6 +16,7 @@ public class DalManager
     public ISighnToDal sighnTo { get; set; }
     public ITypeMember TypeMember { get; set; }
     public IComments comment { get; set; }
+    public ICreditCard card { get; set; }
     public DalManager() {
         ServiceCollection services = new ServiceCollection();
         services.AddSingleton<BlogsSiteContext>();
@@ -29,6 +30,7 @@ public class DalManager
         services.AddScoped<ISighnToDal, DalSighnToService>();
         services.AddScoped<ITypeMember, DalTypeMemberService>();
         services.AddScoped<IComments, DalCommentsService>();
+        services.AddScoped<ICreditCard, DalCreditCardService>();
         ServiceProvider Provider = services.BuildServiceProvider();
         Clients = Provider.GetService<IClientDal>();
         Coaches = Provider.GetService<ICoachDal>();
@@ -39,6 +41,7 @@ public class DalManager
         sighnTo = Provider.GetService<ISighnToDal>();
         TypeMember= Provider.GetService<ITypeMember>();
         comment = Provider.GetService<IComments>();
+        card = Provider.GetService<ICreditCard>();
     }
 
 }

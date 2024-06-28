@@ -24,6 +24,7 @@ public class BlManager
     public ITrainingBL trining { get; set; }
     public ITypeMemberBL TypeMember { get; set; }
     public ICommentsBL comment { get; set; }
+    public ICreditCardBL card { get; set; }
 
 
     public BlManager() {
@@ -36,6 +37,7 @@ public class BlManager
         services.AddScoped<ITrainingBL,BLTriningService>();
         services.AddScoped<ITypeMemberBL, BLTypeMemberService>();
         services.AddScoped<ICommentsBL, BLCommentService>();
+        services.AddScoped<ICreditCardBL, BLCreditCardService>();
         services.AddAutoMapper(typeof(MappingProfile));
         ServiceProvider Provider = services.BuildServiceProvider();
         client = Provider.GetService<IClientBL>();
@@ -45,6 +47,7 @@ public class BlManager
         trining = Provider.GetService<ITrainingBL>();
         TypeMember= Provider.GetService<ITypeMemberBL>();
         comment= Provider.GetService<ICommentsBL>();
+        card = Provider.GetService<ICreditCardBL>();
 
     }
 }

@@ -21,6 +21,10 @@ public partial class Client
 
     public string? Password { get; set; }
 
+    public int? CodeCard { get; set; }
+
+    public virtual CreditCard? CodeCardNavigation { get; set; }
+
     public virtual ICollection<Comment> Comments { get; set; } = new List<Comment>();
 
     public virtual ICollection<SignTo> SignTos { get; set; } = new List<SignTo>();

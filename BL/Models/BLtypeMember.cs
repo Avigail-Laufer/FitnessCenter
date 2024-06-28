@@ -13,5 +13,6 @@ namespace BL.Models
         public string Type { get; set; } = null!;
 
         public int MonthlyPayment { get; set; }
+        public string Description { get; set; } = null!;
     }
 }
