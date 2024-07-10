@@ -15,18 +15,20 @@ public class DalTrainingService:ITraining
     {
         this._fitnessCenter = _fitnessCenter;
     }
+
+    #region basic func
     public List<Training> GetAllTrainings() 
     {
      
      return _fitnessCenter.Trainings.ToList();
     }
-    public Training addTraining(Training training)
+    public Training AddTraining(Training training)
     {
         _fitnessCenter.Trainings.Add(training);
         _fitnessCenter.SaveChanges();
         return training;
     }
-    public Training? updateTraining(Training training) 
+    public Training? UpdateTraining(Training training) 
     {
         var trainings=GetAllTrainings();
         var t=trainings.FirstOrDefault(t=>t.Id==training.Id);
@@ -37,16 +39,16 @@ public class DalTrainingService:ITraining
         t.Name=training.Name;
         return t;
     }
-    public Training deleteTraining(Training training) 
+    public Training DeleteTraining(Training training) 
     {
         _fitnessCenter.Trainings.Remove(training);
         _fitnessCenter.SaveChanges();
         return training;
 
     }
-
     public List<Training> GetTrainingById()
     {
         throw new NotImplementedException();
     }
+    #endregion
 }

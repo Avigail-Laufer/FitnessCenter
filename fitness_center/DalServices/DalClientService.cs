@@ -16,6 +16,7 @@ public class DalClientService : IClientDal
         this._fitnessCenter = _fitnessCenter;
     }
 
+    #region basic func
     public Client AddClient(Client client)
     {
         _fitnessCenter.Clients.Add(client);
@@ -90,4 +91,5 @@ public class DalClientService : IClientDal
         if (trainings == null) { return null; }
         return trainings;
     }
+    #endregion
 }

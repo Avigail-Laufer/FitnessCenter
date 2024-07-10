@@ -17,9 +17,12 @@ namespace BL.BlServices;
 
 public class BLClientService : IClientBL
 {
+    #region prop
     IClientDal ClientBL;
     IMapper mapper;
+    #endregion
 
+    #region func
     public BLClientService(DalManager dal)
     {
         ClientBL = dal.Clients;
@@ -30,21 +33,11 @@ public class BLClientService : IClientBL
     public BLsimpleClient AddClientBL(BLsimpleClient client)
     {
         Client newClient = mapper.Map<Client>(client);
-        //{
-        //    Id = client.Id,
-        //    FirstName = client.FirstName,
-        //    LastName = client.LastName,
-        //    Fhone = client.Fhone,
-        //    BirthDate = client.BirtDate,
-        //    TypeMemberCode = client.IdTypeMember
-
-        //};
         if (client.email != null)
         {
             newClient.Email = client.email;
         }
         var c = ClientBL.AddClient(newClient);
-       
         return client;
     }
 
@@ -58,7 +51,7 @@ public class BLClientService : IClientBL
 
     }
 
-    public BLsimpleClient deleteClientBL(BLsimpleClient client)
+    public BLsimpleClient DeleteClientBL(BLsimpleClient client)
     {
         Client newClient = mapper.Map<Client>(client);
         var c = ClientBL.DeleteClient(newClient);
@@ -111,6 +104,7 @@ public class BLClientService : IClientBL
         }
         return client;
     }
+    #endregion
 }
 
 

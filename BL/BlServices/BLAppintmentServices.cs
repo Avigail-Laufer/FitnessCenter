@@ -16,10 +16,14 @@ namespace BL.BlServices;
 
 public class BLAppintmentServices : IAppointmentBL
 {
+    #region prop
     IAppointment appointment;
     ISighnToDal sighn;
     IClientDal client;
     IMapper mapper;
+    #endregion
+
+    #region func
     public BLAppintmentServices(DalManager dal)
     {
         appointment = dal.Appointmemt;
@@ -28,9 +32,6 @@ public class BLAppintmentServices : IAppointmentBL
         sighn = dal.sighnTo;
         client = dal.Clients;
     }
-
-   
-
     public List<BLAppointment> GetAllAppointmentByIdBL(string id)
     {
         List<SignTo> time = appointment.GetAllAppointmentByIdBL();
@@ -46,10 +47,9 @@ public class BLAppintmentServices : IAppointmentBL
         }
         return appointments;
     }
-
     BLgetAppointment IAppointmentBL.AddAppointmentBL(BLgetAppointment appointmen)
     {
-        SignTo s = appointment.addApointment((mapper.Map<SignTo>(appointmen)));
+        SignTo s = appointment.AddApointment((mapper.Map<SignTo>(appointmen)));
         return appointmen;
             
     }
@@ -74,9 +74,8 @@ public class BLAppintmentServices : IAppointmentBL
         return null;
 
     }
-    public BLpossibleAppointment numberOfPossibleAppointment(string id)
+    public BLpossibleAppointment NumberOfPossibleAppointment(string id)
     {
-
         var c = client.GetClientWhithTypeMember(id);
         if (c == null)
         {
@@ -85,15 +84,13 @@ public class BLAppintmentServices : IAppointmentBL
         int count = c.SignTos.Count();
         return new BLpossibleAppointment(Convert.ToInt32( c.TypeMemberCodeNavigation.CountTraining) - count);
 
-        return null;
-
     }
-
-    public bool ifCanAddApointment(int codeDate,string id)
+    public bool IfCanAddApointment(int codeDate,string id)
     {
         List<SignTo> appointments = appointment.GetAllAppointmentByIdBL();
         SignTo? appoint = appointments.FirstOrDefault(item =>item.IdClient  == id && item.CodeDate==codeDate);
         if(appoint == null) { return true; }
         return false;
     }
+    #endregion
 }

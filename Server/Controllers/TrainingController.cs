@@ -17,6 +17,8 @@ public class TrainingController : ControllerBase
 
         this.blTraining = bl.trining;
     }
+
+    #region Get
     [HttpGet("{id}")]
     public List<BLTrining>? getgetTriningsforday(string id)
     {
@@ -28,5 +30,5 @@ public class TrainingController : ControllerBase
 
     [HttpGet]
     public List<BLTrining> getAllTrainings()=>blTraining.getAllTrainings();
-
+    #endregion
 }

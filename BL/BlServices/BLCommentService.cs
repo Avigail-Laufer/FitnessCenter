@@ -15,17 +15,18 @@ namespace BL.BlServices
 {
     public class BLCommentService : ICommentsBL
     {
+        #region prop
         IComments comments;
         IMapper mapper;
-       public BLCommentService(DalManager dal)
+        #endregion
+
+        #region func
+        public BLCommentService(DalManager dal)
         {
 
             comments = dal.comment;
-                var config = new MapperConfiguration(cfg => cfg.AddProfile<MappingProfile>());
-                mapper = config.CreateMapper();
-
-            
-
+            var config = new MapperConfiguration(cfg => cfg.AddProfile<MappingProfile>());
+            mapper = config.CreateMapper();
         }
 
         public BLComments AddComment(BLComments c)
@@ -36,7 +37,7 @@ namespace BL.BlServices
 
         public List<BLComments> GetComments()
         {
-            List<Comment>list =comments.GetComments();
+            List<Comment> list = comments.GetComments();
             if (list != null)
             {
                 List<BLComments> newComments = new List<BLComments>();
@@ -46,5 +47,6 @@ namespace BL.BlServices
             return null;
 
         }
+        #endregion
     }
 }

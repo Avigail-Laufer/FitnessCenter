@@ -16,6 +16,8 @@ namespace Dal.DalServices
         {
             this._fitnessCenter = _fitnessCenter;
         }
+
+        #region basic func
         public List<TimeTraining> GetSchedule()
         {
             return _fitnessCenter.TimeTrainings
@@ -23,5 +25,6 @@ namespace Dal.DalServices
                 .ThenInclude(c => c.CodeTrainingNavigation)
                 .ToList();
         }
+        #endregion
     }
 }

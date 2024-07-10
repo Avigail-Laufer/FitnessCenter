@@ -17,6 +17,8 @@ public class CoachController : ControllerBase
 
         this.blCoach = bl.coach;
     }
+
+    #region Get
     [HttpGet]
     public List<BLCoach> GetCoaches() => blCoach.GetAllCoachBL();
 
@@ -35,12 +37,8 @@ public class CoachController : ControllerBase
     public BLCoach GetCoachContactInfo(string CoachId) => blCoach.GetCoachContactInfo(CoachId);
     [HttpGet("WorkMoreOneAweek")]
     public List<BLCoach>GetCoachWhoWorkMore(int coachId) => blCoach.GetCoachWhoWorkMoreThanOneAWeek();
-    //[HttpGet("/Times/{CoachId}")]
-    //public List<BLTimeOfTraining> GetCoachWithAvailableTimes(int coachId) => blCoach.GetCoachWithAvailableTimes(coachId);
-    //[HttpPost]
-    //public BLCoach AddCoachBL(BLCoach coach)=>blCoach.AddCoachBL(coach);
-    //[HttpPut]
-    //public Coach Convert(BLCoach coach) => blCoach.Convert(coach);
+    #endregion
+
 
 }
 

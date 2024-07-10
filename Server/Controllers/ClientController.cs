@@ -19,44 +19,34 @@ public class ClientController : ControllerBase
 
         this.blClient = bl.client;
     }
+
+    #region Get
     [HttpGet]
     public List<BLReturnClient> GetClient() => blClient.Clients();
     [HttpGet("id/{id}")]
     public BLsimpleClient GetClientById(string id) => blClient.GetClientById(id);
-    [HttpPost]
-    public BLsimpleClient Add(BLsimpleClient client) =>blClient.AddClientBL(client);
-    [HttpDelete]
-    public BLsimpleClient delete(BLsimpleClient client)=>blClient.deleteClientBL(client);
+
     [HttpGet("{nameOfTrining}")]
-    public List<BLschedule> GetAllTimeTrining(string nameOfTrining) 
+    public List<BLschedule> GetAllTimeTrining(string nameOfTrining)
     {
-        List<BLschedule> list= blClient.GetAllTimeTriningBL(nameOfTrining);
+        List<BLschedule> list = blClient.GetAllTimeTriningBL(nameOfTrining);
         if (list == null)
         {
             return null;
         }
         return list;
     }
-    //public BLsimpleClient UppdateClientBL(BLsimpleClient client);
-    //[HttpGet]
-    //public List<BLsimpleClient> GetAllAppointmentByIdBL(string idClient);
+    #endregion
 
+    #region Post
+    [HttpPost]
+    public BLsimpleClient Add(BLsimpleClient client) =>blClient.AddClientBL(client);
+    #endregion
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    #region Delete
+    [HttpDelete]
+    public BLsimpleClient delete(BLsimpleClient client)=>blClient.DeleteClientBL(client);
+    #endregion
 
 }
 

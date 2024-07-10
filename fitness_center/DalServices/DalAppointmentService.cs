@@ -17,7 +17,8 @@ internal class DalAppointmentService : IAppointment
         _fitnessCenter = fitnessCenter;    
     }
 
-    public SignTo addApointment(SignTo signTo)
+    #region basic func
+    public SignTo AddApointment(SignTo signTo)
     {
         _fitnessCenter.SignTos.Add(signTo);
         _fitnessCenter.SaveChanges();
@@ -41,4 +42,5 @@ internal class DalAppointmentService : IAppointment
         _fitnessCenter.SaveChanges();
         return signTo;
     }
+    #endregion
 }

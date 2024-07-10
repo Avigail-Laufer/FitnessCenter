@@ -20,8 +20,9 @@ namespace Server.Controllers
         public CreditCardController(BlManager bl) {
             card = bl.card;
         }
-        private static readonly string EncryptionKey = "your-secret-key"; // החלף למפתח סודי משלך
+        private static readonly string EncryptionKey = "your-secret-key";
 
+        #region Post
         [HttpPost]
         public ActionResult<BLCreditCard> Post([FromBody] BLCreditCard data)
         {
@@ -66,9 +67,10 @@ namespace Server.Controllers
                 }
             }
         }
+        #endregion
 
 
     }
 
-   
+
 }

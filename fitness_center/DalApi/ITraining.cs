@@ -12,6 +12,6 @@ public interface ITraining
 {
     public List<Training> GetAllTrainings();
     public List<Training> GetTrainingById();
-    public Training? updateTraining(Training training);
-    public Training? deleteTraining(Training training);
+    public Training? UpdateTraining(Training training);
+    public Training? DeleteTraining(Training training);
 }

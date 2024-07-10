@@ -11,6 +11,8 @@ namespace Dal.DalServices
     public class DalCreditCardService : ICreditCard
     {
         BlogsSiteContext _fitnessCenter;
+
+        #region basic func
         public DalCreditCardService(BlogsSiteContext fitnessCenter) {
             _fitnessCenter = fitnessCenter;
         }
@@ -22,5 +24,6 @@ namespace Dal.DalServices
                 return card;
             
         }
+        #endregion
     }
 }

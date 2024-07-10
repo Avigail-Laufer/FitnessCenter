@@ -16,6 +16,7 @@ namespace Dal.DalServices
         {
             this._fitnessCenter = _fitnessCenter;
         }
+        #region basic func
 
         public List<Comment> GetComments() => _fitnessCenter.Comments.Include(c=>c.IdClientNavigation).ToList();
         public Comment AddComment(Comment c)
@@ -24,6 +25,7 @@ namespace Dal.DalServices
             _fitnessCenter.SaveChanges();
             return c;
         }
+        #endregion
 
 
     }

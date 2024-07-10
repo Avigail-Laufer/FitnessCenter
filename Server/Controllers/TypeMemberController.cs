@@ -16,11 +16,14 @@ public class TypeMemberController : Controller
 
         this.typemember = bl.TypeMember;
     }
+
+    #region Get
     [HttpGet]
     public ActionResult <List<BLtypeMember>> Get()=>typemember.GettypeMembers();
-       
-    
- 
+    #endregion
+
+
+
 
 
 }

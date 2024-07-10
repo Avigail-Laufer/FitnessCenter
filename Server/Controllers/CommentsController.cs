@@ -12,14 +12,19 @@ namespace Server.Controllers
         ICommentsBL comments;
         public CommentsController(BlManager bl)
         {
-
             comments = bl.comment;
         }
+
+        #region Get
         [HttpGet]
-        public ActionResult<List<BLComments>> Get()=>
+        public ActionResult<List<BLComments>> Get() =>
             comments.GetComments();
+        #endregion
+
+        #region Post
         [HttpPost]
         public ActionResult<BLComments> Post(BLComments c) => comments.AddComment(c);
+        #endregion
 
 
     }

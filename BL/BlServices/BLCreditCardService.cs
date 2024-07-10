@@ -12,27 +12,31 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace BL.BlServices
+namespace BL.BlServices;
+
+public class BLCreditCardService : ICreditCardBL
 {
-   public  class BLCreditCardService : ICreditCardBL
+    #region prop
+    ICreditCard card;
+    IMapper mapper;
+    #endregion
+
+    #region func
+    public BLCreditCardService(DalManager dal)
     {
-        ICreditCard card;
-        IMapper mapper;
-        public BLCreditCardService(DalManager dal)
-        {
 
-            card = dal.card;
-            var config = new MapperConfiguration(cfg => cfg.AddProfile<MappingProfile>());
-            mapper = config.CreateMapper();
+        card = dal.card;
+        var config = new MapperConfiguration(cfg => cfg.AddProfile<MappingProfile>());
+        mapper = config.CreateMapper();
 
 
 
-        }
-        public BLCreditCard Post(BLCreditCard cards)
-        {
-            CreditCard c= card.Post(mapper.Map<CreditCard>(cards));
-            cards.Id= c.Id;
-            return cards;
-        }
     }
+    public BLCreditCard Post(BLCreditCard cards)
+    {
+        CreditCard c = card.Post(mapper.Map<CreditCard>(cards));
+        cards.Id = c.Id;
+        return cards;
+    }
+    #endregion
 }

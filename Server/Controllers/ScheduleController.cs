@@ -15,24 +15,25 @@ namespace Server.Controllers
         ISchduleBL schdule;
         public ScheduleController(BlManager bl)
         {
-
             schdule = bl.schedule;
         }
+
+        #region Get
         [HttpGet("{nameTraining}/{nameDay}")]
-        public ActionResult<List<BLschedule>> Get(string nameTraining, string nameDay) 
+        public ActionResult<List<BLschedule>> Get(string nameTraining, string nameDay)
         {
             List<BLschedule> bLschedules = schdule.DatesForTrainingDayOfTheWeek(nameTraining, nameDay);
-            if(bLschedules == null)
+            if (bLschedules == null)
             {
                 return null;
             }
             return bLschedules;
-            
+
         }
         [HttpGet("name/{nameTraining}")]
-        public ActionResult<List<BLschedule>> GetDatesForTraining(string nameTraining) 
-        { 
-            List<BLschedule>bLschedules= schdule.DatesForTraining(nameTraining);
+        public ActionResult<List<BLschedule>> GetDatesForTraining(string nameTraining)
+        {
+            List<BLschedule> bLschedules = schdule.DatesForTraining(nameTraining);
             return bLschedules;
         }
         [HttpGet("numOfRoom/{numOfRoom}")]
@@ -42,10 +43,6 @@ namespace Server.Controllers
             return bLschedules;
         }
 
-        //public List<BLschedule> GetUpcomingDatesForRoom(int numOfRoom)
-        //{ 
-
-        //}
         [HttpGet("dayOfWeek/{dayOfWeek}")]
         public List<BLschedule> GetDatesForDayOfTheWeek(string dayOfWeek)
         {
@@ -54,17 +51,20 @@ namespace Server.Controllers
 
         }
         [HttpGet]
-        public List<BLschedule> DateOfTrainingForAclient(string id,string training)
+        public List<BLschedule> DateOfTrainingForAclient(string id, string training)
         {
-            return schdule.DateOfTrainingForAclient(id,training);
+            return schdule.DateOfTrainingForAclient(id, training);
         }
+        #endregion
+
+        #region Delete
         [HttpDelete]
-        public BLschedule deletescudel(string idScudel, string nameTraining) 
+        public BLschedule deletescudel(string idScudel, string nameTraining)
         {
             return schdule.deletescudel(idScudel, nameTraining);
         }
-
+        #endregion
 
     }
-   
+
 }

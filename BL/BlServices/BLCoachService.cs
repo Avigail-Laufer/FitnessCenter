@@ -17,11 +17,15 @@ namespace BL.BlServices;
 
 public class BLCoachService : ICoachBL
 {
+    #region prop
     ICoachDal CoachBL;
     ICoachForTraining CoachForTrainingBL;
     ITraining trainingBL;
     ISchedule timeTrainingBL;
     IMapper mapper;
+    #endregion
+
+    #region func
     public BLCoachService(DalManager dal)
     {
         CoachBL = dal.Coaches;
@@ -55,9 +59,7 @@ public class BLCoachService : ICoachBL
         if (coachfromDal == null)
         {
             return null;
-
         }
-       
         return coach;
     }
 
@@ -66,11 +68,6 @@ public class BLCoachService : ICoachBL
         var listFormDall = CoachBL.GetAllCoachDal();
         List<BLCoach> list = new List<BLCoach>();
         listFormDall.ForEach(t => list.Add(mapper.Map<BLCoach>(t)));
-        //foreach (var c in listFormDall)
-        //{
-        //    var newCoach = new BLCoach(c);
-        //    list.Add(newCoach);
-        //}
         return list;
     }
 
@@ -123,8 +120,6 @@ public class BLCoachService : ICoachBL
         return new BLCoach(coach);
     }
 
-   
-
     public List<BLCoach> GetCoachWhoWorkMoreThanOneAWeek()
     {
 
@@ -144,10 +139,7 @@ public class BLCoachService : ICoachBL
                 if (coach.Id.Equals(date.CoachForTrainingCodeNavigation.CodeCoach))
                 {
                     count++;
-
                 }
-
-
             }
             //אם עובד יותר מפעם בשבוע מוסיף לרשימה את המאמן
             if(count > 1) {
@@ -204,4 +196,5 @@ public class BLCoachService : ICoachBL
         }
         return timeTrainingCoach;
     }
+    #endregion
 }

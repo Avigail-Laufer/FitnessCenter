@@ -15,8 +15,20 @@ namespace Server.Controllers
 
             this.appointment = bl.Appointment;
         }
+        #region Get
         [HttpGet]
-        public ActionResult<BLpossibleAppointment> GetPossibleAppointment(string id) => appointment.numberOfPossibleAppointment(id);
+        public ActionResult<BLpossibleAppointment> GetPossibleAppointment(string id) => appointment.NumberOfPossibleAppointment(id);
+
+        [HttpGet("{bool}")]
+        public bool ifCanAddApointment(int codeDate, string id)
+        {
+            return appointment.IfCanAddApointment(codeDate, id);
+
+
+        }
+        #endregion
+
+        #region Post
         [HttpPost]
         public BLgetAppointment getApo(BLgetAppointment a) {
 
@@ -24,6 +36,9 @@ namespace Server.Controllers
                 return a;
             return null;
         }
+        #endregion
+
+        #region Delete
         [HttpDelete]
         public BLgetAppointment deleteApo(BLgetAppointment a)
         {
@@ -32,13 +47,10 @@ namespace Server.Controllers
                 return a;
             return null;
         }
-        [HttpGet("{bool}")]
-        public bool ifCanAddApointment(int codeDate, string id) 
-        {
-            return appointment.ifCanAddApointment(codeDate, id);
-               
+        #endregion
 
-        }
+        
+       
 
     }
 }

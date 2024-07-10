@@ -12,6 +12,8 @@ namespace Dal.DalServices
     internal class DalCoachForTrainingService : ICoachForTraining
     {
         BlogsSiteContext _fitnessCenter;
+
+        #region basic func
         public DalCoachForTrainingService(BlogsSiteContext fitnessCenter) {
             _fitnessCenter = fitnessCenter; 
         } 
@@ -23,5 +25,6 @@ namespace Dal.DalServices
                 .Include(c=>c.CodeTrainingNavigation)
                 .ToList();
         }
+        #endregion
     }
 }

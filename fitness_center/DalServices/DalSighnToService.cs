@@ -18,7 +18,7 @@ public class DalSighnToService:ISighnToDal
         this._fitnessCenter = _fitnessCenter;
     }
 
-
+    #region basic func
     public List<SignTo> GetTimes()
     {
         return _fitnessCenter.SignTos
@@ -27,6 +27,7 @@ public class DalSighnToService:ISighnToDal
         .ThenInclude(t => t.CodeTrainingNavigation)
         .ToList();
     }
+    #endregion
 
-    
+
 }

@@ -16,6 +16,8 @@ namespace Dal.DalServices
         {
             this._fitnessCenter = _fitnessCenter;
         }
+
+        #region basic func
         //הוספת מאמן
         public Coach AddCoachDal(Coach coach)
         {
@@ -82,5 +84,6 @@ namespace Dal.DalServices
                 .ToList();
                 
         }
+        #endregion
     }
 }

@@ -15,8 +15,12 @@ namespace BL.BlServices
 {
     public class BLTypeMemberService : ITypeMemberBL
     {
+        #region prop
         ITypeMember typeMember;
         IMapper mapper;
+        #endregion
+
+        #region func
         public BLTypeMemberService(DalManager dal) {
             var config = new MapperConfiguration(cfg => cfg.AddProfile<MappingProfile>());
             mapper = config.CreateMapper();
@@ -33,5 +37,6 @@ namespace BL.BlServices
             }
             return null;
         }
+        #endregion
     }
 }

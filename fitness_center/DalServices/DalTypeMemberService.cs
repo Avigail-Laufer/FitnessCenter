@@ -15,7 +15,10 @@ namespace Dal.DalServices
         {
             this._fitnessCenter = _fitnessCenter;
         }
+
+        #region basic func
         public List<TypeMember> Get()=> _fitnessCenter.TypeMembers.ToList();
-        
+        #endregion
+
     }
 }
